@@ -1,0 +1,726 @@
+[0.000000] (-) TimerEvent: {}
+[0.001056] (robotpatrol) JobQueued: {'identifier': 'robotpatrol', 'dependencies': OrderedDict()}
+[0.001095] (robotpatrol) JobStarted: {'identifier': 'robotpatrol'}
+[0.015575] (robotpatrol) JobProgress: {'identifier': 'robotpatrol', 'progress': 'cmake'}
+[0.015906] (robotpatrol) Command: {'cmd': ['/usr/bin/cmake', '/home/admin/Desktop/Project180/src/robotpatrol', '-DCMAKE_INSTALL_PREFIX=/home/admin/Desktop/Project180/src/install/robotpatrol'], 'cwd': '/home/admin/Desktop/Project180/src/build/robotpatrol', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '1475'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/admin/Desktop/Project180/install/robotpatrol/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/Desktop/Project180'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Desktop/Project180/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'admin'), ('JOURNAL_STREAM', '8:37702'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/CSE180F:@/tmp/.ICE-unix/1545,unix/CSE180F:/tmp/.ICE-unix/1545'), ('INVOCATION_ID', 'ac63f99a5bf6494ab3f86fef72cc0465'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3580fef2_8ffe_47d2_9b06_0b1cbd5d941a'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Desktop/Project180/install/robotpatrol:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Desktop/Project180/src/build/robotpatrol'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/admin/Desktop/Project180/install/robotpatrol:/opt/ros/foxy')]), 'shell': False}
+[0.099910] (-) TimerEvent: {}
+[0.202682] (-) TimerEvent: {}
+[0.215044] (robotpatrol) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.298579] (robotpatrol) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.302824] (-) TimerEvent: {}
+[0.310352] (robotpatrol) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.405998] (-) TimerEvent: {}
+[0.411037] (robotpatrol) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.414164] (robotpatrol) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.506130] (-) TimerEvent: {}
+[0.515995] (robotpatrol) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.530731] (robotpatrol) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.531409] (robotpatrol) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.535870] (robotpatrol) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.607021] (-) TimerEvent: {}
+[0.646384] (robotpatrol) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.647547] (robotpatrol) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.707547] (-) TimerEvent: {}
+[0.755760] (robotpatrol) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.769393] (robotpatrol) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.769725] (robotpatrol) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.777330] (robotpatrol) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.807683] (-) TimerEvent: {}
+[0.809863] (robotpatrol) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.810201] (robotpatrol) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.910251] (-) TimerEvent: {}
+[1.010785] (-) TimerEvent: {}
+[1.048013] (robotpatrol) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.111866] (-) TimerEvent: {}
+[1.125947] (robotpatrol) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.135469] (robotpatrol) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.212136] (-) TimerEvent: {}
+[1.251896] (robotpatrol) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.285285] (robotpatrol) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.312776] (-) TimerEvent: {}
+[1.394855] (robotpatrol) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.412945] (-) TimerEvent: {}
+[1.486832] (robotpatrol) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.489296] (robotpatrol) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.491361] (robotpatrol) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.517038] (-) TimerEvent: {}
+[1.581903] (robotpatrol) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.582431] (robotpatrol) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.620731] (-) TimerEvent: {}
+[1.680245] (robotpatrol) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.680576] (robotpatrol) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.723341] (-) TimerEvent: {}
+[1.750018] (robotpatrol) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.750423] (robotpatrol) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.824576] (-) TimerEvent: {}
+[1.828754] (robotpatrol) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.830205] (robotpatrol) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.925261] (-) TimerEvent: {}
+[2.025621] (-) TimerEvent: {}
+[2.042114] (robotpatrol) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[2.090632] (robotpatrol) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[2.125890] (-) TimerEvent: {}
+[2.183111] (robotpatrol) StdoutLine: {'line': b'-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)\n'}
+[2.226639] (-) TimerEvent: {}
+[2.327143] (-) TimerEvent: {}
+[2.427846] (-) TimerEvent: {}
+[2.528627] (-) TimerEvent: {}
+[2.532656] (robotpatrol) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[2.580440] (robotpatrol) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)\n'}
+[2.600678] (robotpatrol) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.629095] (-) TimerEvent: {}
+[2.716091] (robotpatrol) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.717388] (robotpatrol) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.717841] (robotpatrol) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/admin/Desktop/Project180/src/robotpatrol/include>\n'}
+[2.717926] (robotpatrol) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.718963] (robotpatrol) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.719086] (robotpatrol) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.720235] (robotpatrol) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.722742] (robotpatrol) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.722894] (robotpatrol) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.724060] (robotpatrol) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.729390] (-) TimerEvent: {}
+[2.731425] (robotpatrol) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.755452] (robotpatrol) StdoutLine: {'line': b'-- Generating done\n'}
+[2.758265] (robotpatrol) StdoutLine: {'line': b'-- Build files have been written to: /home/admin/Desktop/Project180/src/build/robotpatrol\n'}
+[2.771092] (robotpatrol) CommandEnded: {'returncode': 0}
+[2.774003] (robotpatrol) JobProgress: {'identifier': 'robotpatrol', 'progress': 'build'}
+[2.774296] (robotpatrol) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/Desktop/Project180/src/build/robotpatrol', '--', '-j8', '-l8'], 'cwd': '/home/admin/Desktop/Project180/src/build/robotpatrol', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '1475'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/admin/Desktop/Project180/install/robotpatrol/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/Desktop/Project180'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Desktop/Project180/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'admin'), ('JOURNAL_STREAM', '8:37702'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/CSE180F:@/tmp/.ICE-unix/1545,unix/CSE180F:/tmp/.ICE-unix/1545'), ('INVOCATION_ID', 'ac63f99a5bf6494ab3f86fef72cc0465'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3580fef2_8ffe_47d2_9b06_0b1cbd5d941a'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Desktop/Project180/install/robotpatrol:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Desktop/Project180/src/build/robotpatrol'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/admin/Desktop/Project180/install/robotpatrol:/opt/ros/foxy')]), 'shell': False}
+[2.829504] (robotpatrol) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target testpackage\x1b[0m\n'}
+[2.829822] (-) TimerEvent: {}
+[2.885828] (robotpatrol) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/testpackage.dir/src/testpackage.cpp.o\x1b[0m\n'}
+[2.930721] (-) TimerEvent: {}
+[3.031283] (-) TimerEvent: {}
+[3.132763] (-) TimerEvent: {}
+[3.233244] (-) TimerEvent: {}
+[3.333774] (-) TimerEvent: {}
+[3.434221] (-) TimerEvent: {}
+[3.535082] (-) TimerEvent: {}
+[3.635435] (-) TimerEvent: {}
+[3.735974] (-) TimerEvent: {}
+[3.836361] (-) TimerEvent: {}
+[3.937517] (-) TimerEvent: {}
+[4.038017] (-) TimerEvent: {}
+[4.139024] (-) TimerEvent: {}
+[4.239821] (-) TimerEvent: {}
+[4.340190] (-) TimerEvent: {}
+[4.441174] (-) TimerEvent: {}
+[4.541571] (-) TimerEvent: {}
+[4.642061] (-) TimerEvent: {}
+[4.742987] (-) TimerEvent: {}
+[4.843473] (-) TimerEvent: {}
+[4.944131] (-) TimerEvent: {}
+[5.045202] (-) TimerEvent: {}
+[5.145901] (-) TimerEvent: {}
+[5.246538] (-) TimerEvent: {}
+[5.347254] (-) TimerEvent: {}
+[5.447668] (-) TimerEvent: {}
+[5.550110] (-) TimerEvent: {}
+[5.650864] (-) TimerEvent: {}
+[5.673702] (robotpatrol) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/testpackage.dir/src/navigation.cpp.o\x1b[0m\n'}
+[5.751713] (-) TimerEvent: {}
+[5.853229] (-) TimerEvent: {}
+[5.953802] (-) TimerEvent: {}
+[6.054406] (-) TimerEvent: {}
+[6.155186] (-) TimerEvent: {}
+[6.255670] (-) TimerEvent: {}
+[6.356231] (-) TimerEvent: {}
+[6.456712] (-) TimerEvent: {}
+[6.558960] (-) TimerEvent: {}
+[6.659717] (-) TimerEvent: {}
+[6.760393] (-) TimerEvent: {}
+[6.861377] (-) TimerEvent: {}
+[6.961892] (-) TimerEvent: {}
+[7.062341] (-) TimerEvent: {}
+[7.162976] (-) TimerEvent: {}
+[7.263379] (-) TimerEvent: {}
+[7.364115] (-) TimerEvent: {}
+[7.464847] (-) TimerEvent: {}
+[7.565546] (-) TimerEvent: {}
+[7.666218] (-) TimerEvent: {}
+[7.767067] (-) TimerEvent: {}
+[7.869490] (-) TimerEvent: {}
+[7.969951] (-) TimerEvent: {}
+[8.070433] (-) TimerEvent: {}
+[8.171105] (-) TimerEvent: {}
+[8.271829] (-) TimerEvent: {}
+[8.372327] (-) TimerEvent: {}
+[8.473006] (-) TimerEvent: {}
+[8.573411] (-) TimerEvent: {}
+[8.674073] (-) TimerEvent: {}
+[8.774772] (-) TimerEvent: {}
+[8.875892] (-) TimerEvent: {}
+[8.976475] (-) TimerEvent: {}
+[9.077154] (-) TimerEvent: {}
+[9.178088] (-) TimerEvent: {}
+[9.278917] (-) TimerEvent: {}
+[9.379416] (-) TimerEvent: {}
+[9.479965] (-) TimerEvent: {}
+[9.580578] (-) TimerEvent: {}
+[9.680986] (-) TimerEvent: {}
+[9.781489] (-) TimerEvent: {}
+[9.881871] (-) TimerEvent: {}
+[9.982217] (-) TimerEvent: {}
+[10.082564] (-) TimerEvent: {}
+[10.183036] (-) TimerEvent: {}
+[10.283709] (-) TimerEvent: {}
+[10.384476] (-) TimerEvent: {}
+[10.484885] (-) TimerEvent: {}
+[10.585311] (-) TimerEvent: {}
+[10.686296] (-) TimerEvent: {}
+[10.787252] (-) TimerEvent: {}
+[10.888819] (-) TimerEvent: {}
+[10.989366] (-) TimerEvent: {}
+[11.089981] (-) TimerEvent: {}
+[11.190507] (-) TimerEvent: {}
+[11.291173] (-) TimerEvent: {}
+[11.392060] (-) TimerEvent: {}
+[11.492919] (-) TimerEvent: {}
+[11.593459] (-) TimerEvent: {}
+[11.693933] (-) TimerEvent: {}
+[11.794517] (-) TimerEvent: {}
+[11.895091] (-) TimerEvent: {}
+[11.995445] (-) TimerEvent: {}
+[12.096011] (-) TimerEvent: {}
+[12.199138] (-) TimerEvent: {}
+[12.299969] (-) TimerEvent: {}
+[12.401259] (-) TimerEvent: {}
+[12.501971] (-) TimerEvent: {}
+[12.602379] (-) TimerEvent: {}
+[12.703225] (-) TimerEvent: {}
+[12.803701] (-) TimerEvent: {}
+[12.904232] (-) TimerEvent: {}
+[13.005497] (-) TimerEvent: {}
+[13.106160] (-) TimerEvent: {}
+[13.208398] (-) TimerEvent: {}
+[13.309247] (-) TimerEvent: {}
+[13.409734] (-) TimerEvent: {}
+[13.511293] (-) TimerEvent: {}
+[13.612027] (-) TimerEvent: {}
+[13.712988] (-) TimerEvent: {}
+[13.814068] (-) TimerEvent: {}
+[13.915623] (-) TimerEvent: {}
+[14.017128] (-) TimerEvent: {}
+[14.117630] (-) TimerEvent: {}
+[14.218343] (-) TimerEvent: {}
+[14.319509] (-) TimerEvent: {}
+[14.420063] (-) TimerEvent: {}
+[14.520497] (-) TimerEvent: {}
+[14.621166] (-) TimerEvent: {}
+[14.721965] (-) TimerEvent: {}
+[14.822577] (-) TimerEvent: {}
+[14.923310] (-) TimerEvent: {}
+[15.023694] (-) TimerEvent: {}
+[15.124041] (-) TimerEvent: {}
+[15.225117] (-) TimerEvent: {}
+[15.325607] (-) TimerEvent: {}
+[15.426224] (-) TimerEvent: {}
+[15.526714] (-) TimerEvent: {}
+[15.627121] (-) TimerEvent: {}
+[15.727892] (-) TimerEvent: {}
+[15.828941] (-) TimerEvent: {}
+[15.929943] (-) TimerEvent: {}
+[16.030516] (-) TimerEvent: {}
+[16.131020] (-) TimerEvent: {}
+[16.232250] (-) TimerEvent: {}
+[16.334314] (-) TimerEvent: {}
+[16.435126] (-) TimerEvent: {}
+[16.536016] (-) TimerEvent: {}
+[16.636762] (-) TimerEvent: {}
+[16.737647] (-) TimerEvent: {}
+[16.838489] (-) TimerEvent: {}
+[16.938905] (-) TimerEvent: {}
+[17.039721] (-) TimerEvent: {}
+[17.140245] (-) TimerEvent: {}
+[17.241315] (-) TimerEvent: {}
+[17.341979] (-) TimerEvent: {}
+[17.442673] (-) TimerEvent: {}
+[17.543169] (-) TimerEvent: {}
+[17.643529] (-) TimerEvent: {}
+[17.744728] (-) TimerEvent: {}
+[17.845305] (-) TimerEvent: {}
+[17.945795] (-) TimerEvent: {}
+[18.046784] (-) TimerEvent: {}
+[18.148561] (-) TimerEvent: {}
+[18.250487] (-) TimerEvent: {}
+[18.352057] (-) TimerEvent: {}
+[18.453915] (-) TimerEvent: {}
+[18.554624] (-) TimerEvent: {}
+[18.655131] (-) TimerEvent: {}
+[18.755781] (-) TimerEvent: {}
+[18.856568] (-) TimerEvent: {}
+[18.958402] (-) TimerEvent: {}
+[19.059263] (-) TimerEvent: {}
+[19.159650] (-) TimerEvent: {}
+[19.260232] (-) TimerEvent: {}
+[19.361471] (-) TimerEvent: {}
+[19.462097] (-) TimerEvent: {}
+[19.562839] (-) TimerEvent: {}
+[19.663337] (-) TimerEvent: {}
+[19.763813] (-) TimerEvent: {}
+[19.864950] (-) TimerEvent: {}
+[19.965382] (-) TimerEvent: {}
+[20.066707] (-) TimerEvent: {}
+[20.167536] (-) TimerEvent: {}
+[20.268069] (-) TimerEvent: {}
+[20.368585] (-) TimerEvent: {}
+[20.469289] (-) TimerEvent: {}
+[20.569652] (-) TimerEvent: {}
+[20.670102] (-) TimerEvent: {}
+[20.770594] (-) TimerEvent: {}
+[20.871198] (-) TimerEvent: {}
+[20.972000] (-) TimerEvent: {}
+[21.072473] (-) TimerEvent: {}
+[21.173039] (-) TimerEvent: {}
+[21.273549] (-) TimerEvent: {}
+[21.374002] (-) TimerEvent: {}
+[21.474494] (-) TimerEvent: {}
+[21.575009] (-) TimerEvent: {}
+[21.676206] (-) TimerEvent: {}
+[21.776846] (-) TimerEvent: {}
+[21.877376] (-) TimerEvent: {}
+[21.978279] (-) TimerEvent: {}
+[22.078858] (-) TimerEvent: {}
+[22.179600] (-) TimerEvent: {}
+[22.280131] (-) TimerEvent: {}
+[22.381056] (-) TimerEvent: {}
+[22.481578] (-) TimerEvent: {}
+[22.582329] (-) TimerEvent: {}
+[22.683296] (-) TimerEvent: {}
+[22.783675] (-) TimerEvent: {}
+[22.884457] (-) TimerEvent: {}
+[22.931776] (robotpatrol) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX executable testpackage\x1b[0m\n'}
+[22.985033] (-) TimerEvent: {}
+[23.085889] (-) TimerEvent: {}
+[23.186680] (-) TimerEvent: {}
+[23.288002] (-) TimerEvent: {}
+[23.388450] (-) TimerEvent: {}
+[23.489637] (-) TimerEvent: {}
+[23.590485] (-) TimerEvent: {}
+[23.691348] (-) TimerEvent: {}
+[23.708717] (robotpatrol) StdoutLine: {'line': b'[ 37%] Built target testpackage\n'}
+[23.729047] (robotpatrol) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navigator\x1b[0m\n'}
+[23.781764] (robotpatrol) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/navigator.dir/src/navigation.cpp.o\x1b[0m\n'}
+[23.791753] (-) TimerEvent: {}
+[23.892600] (-) TimerEvent: {}
+[23.993827] (-) TimerEvent: {}
+[24.094317] (-) TimerEvent: {}
+[24.195597] (-) TimerEvent: {}
+[24.296350] (-) TimerEvent: {}
+[24.397326] (-) TimerEvent: {}
+[24.497699] (-) TimerEvent: {}
+[24.598913] (-) TimerEvent: {}
+[24.699515] (-) TimerEvent: {}
+[24.800877] (-) TimerEvent: {}
+[24.901316] (-) TimerEvent: {}
+[25.002242] (-) TimerEvent: {}
+[25.102784] (-) TimerEvent: {}
+[25.203424] (-) TimerEvent: {}
+[25.303862] (-) TimerEvent: {}
+[25.404775] (-) TimerEvent: {}
+[25.505633] (-) TimerEvent: {}
+[25.606195] (-) TimerEvent: {}
+[25.706778] (-) TimerEvent: {}
+[25.807308] (-) TimerEvent: {}
+[25.908071] (-) TimerEvent: {}
+[26.008871] (-) TimerEvent: {}
+[26.110795] (-) TimerEvent: {}
+[26.211562] (-) TimerEvent: {}
+[26.311955] (-) TimerEvent: {}
+[26.413715] (-) TimerEvent: {}
+[26.514139] (-) TimerEvent: {}
+[26.614842] (-) TimerEvent: {}
+[26.715188] (-) TimerEvent: {}
+[26.815699] (-) TimerEvent: {}
+[26.917060] (-) TimerEvent: {}
+[27.017386] (-) TimerEvent: {}
+[27.117858] (-) TimerEvent: {}
+[27.218787] (-) TimerEvent: {}
+[27.319336] (-) TimerEvent: {}
+[27.420295] (-) TimerEvent: {}
+[27.521815] (-) TimerEvent: {}
+[27.622552] (-) TimerEvent: {}
+[27.723130] (-) TimerEvent: {}
+[27.823721] (-) TimerEvent: {}
+[27.924594] (-) TimerEvent: {}
+[28.025058] (-) TimerEvent: {}
+[28.125981] (-) TimerEvent: {}
+[28.226775] (-) TimerEvent: {}
+[28.327405] (-) TimerEvent: {}
+[28.428491] (-) TimerEvent: {}
+[28.530425] (-) TimerEvent: {}
+[28.631039] (-) TimerEvent: {}
+[28.731688] (-) TimerEvent: {}
+[28.832945] (-) TimerEvent: {}
+[28.935013] (-) TimerEvent: {}
+[29.035835] (-) TimerEvent: {}
+[29.136297] (-) TimerEvent: {}
+[29.237309] (-) TimerEvent: {}
+[29.338048] (-) TimerEvent: {}
+[29.438460] (-) TimerEvent: {}
+[29.539284] (-) TimerEvent: {}
+[29.640008] (-) TimerEvent: {}
+[29.740416] (-) TimerEvent: {}
+[29.841575] (-) TimerEvent: {}
+[29.942378] (-) TimerEvent: {}
+[30.043014] (-) TimerEvent: {}
+[30.144188] (-) TimerEvent: {}
+[30.245568] (-) TimerEvent: {}
+[30.346024] (-) TimerEvent: {}
+[30.449408] (-) TimerEvent: {}
+[30.550161] (-) TimerEvent: {}
+[30.650716] (-) TimerEvent: {}
+[30.751730] (-) TimerEvent: {}
+[30.852311] (-) TimerEvent: {}
+[30.953041] (-) TimerEvent: {}
+[31.053482] (-) TimerEvent: {}
+[31.154285] (-) TimerEvent: {}
+[31.255071] (-) TimerEvent: {}
+[31.355535] (-) TimerEvent: {}
+[31.456197] (-) TimerEvent: {}
+[31.556751] (-) TimerEvent: {}
+[31.657127] (-) TimerEvent: {}
+[31.757865] (-) TimerEvent: {}
+[31.858710] (-) TimerEvent: {}
+[31.959317] (-) TimerEvent: {}
+[32.059763] (-) TimerEvent: {}
+[32.160144] (-) TimerEvent: {}
+[32.260646] (-) TimerEvent: {}
+[32.362077] (-) TimerEvent: {}
+[32.462908] (-) TimerEvent: {}
+[32.563466] (-) TimerEvent: {}
+[32.663863] (-) TimerEvent: {}
+[32.764389] (-) TimerEvent: {}
+[32.865453] (-) TimerEvent: {}
+[32.966296] (-) TimerEvent: {}
+[33.066773] (-) TimerEvent: {}
+[33.167724] (-) TimerEvent: {}
+[33.268599] (-) TimerEvent: {}
+[33.370999] (-) TimerEvent: {}
+[33.471765] (-) TimerEvent: {}
+[33.572113] (-) TimerEvent: {}
+[33.672842] (-) TimerEvent: {}
+[33.773443] (-) TimerEvent: {}
+[33.873822] (-) TimerEvent: {}
+[33.974211] (-) TimerEvent: {}
+[34.074850] (-) TimerEvent: {}
+[34.175353] (-) TimerEvent: {}
+[34.275873] (-) TimerEvent: {}
+[34.377641] (-) TimerEvent: {}
+[34.478362] (-) TimerEvent: {}
+[34.579037] (-) TimerEvent: {}
+[34.686158] (-) TimerEvent: {}
+[34.787298] (-) TimerEvent: {}
+[34.888102] (-) TimerEvent: {}
+[34.988459] (-) TimerEvent: {}
+[35.088863] (-) TimerEvent: {}
+[35.189648] (-) TimerEvent: {}
+[35.290371] (-) TimerEvent: {}
+[35.390963] (-) TimerEvent: {}
+[35.491776] (-) TimerEvent: {}
+[35.593010] (-) TimerEvent: {}
+[35.693832] (-) TimerEvent: {}
+[35.794456] (-) TimerEvent: {}
+[35.895404] (-) TimerEvent: {}
+[35.995812] (-) TimerEvent: {}
+[36.096878] (-) TimerEvent: {}
+[36.197530] (-) TimerEvent: {}
+[36.298297] (-) TimerEvent: {}
+[36.398954] (-) TimerEvent: {}
+[36.499469] (-) TimerEvent: {}
+[36.600343] (-) TimerEvent: {}
+[36.703125] (-) TimerEvent: {}
+[36.803524] (-) TimerEvent: {}
+[36.904031] (-) TimerEvent: {}
+[37.004850] (-) TimerEvent: {}
+[37.105500] (-) TimerEvent: {}
+[37.205852] (-) TimerEvent: {}
+[37.306880] (-) TimerEvent: {}
+[37.407557] (-) TimerEvent: {}
+[37.508247] (-) TimerEvent: {}
+[37.608675] (-) TimerEvent: {}
+[37.709486] (-) TimerEvent: {}
+[37.809925] (-) TimerEvent: {}
+[37.910931] (-) TimerEvent: {}
+[38.011826] (-) TimerEvent: {}
+[38.112292] (-) TimerEvent: {}
+[38.213145] (-) TimerEvent: {}
+[38.313626] (-) TimerEvent: {}
+[38.414146] (-) TimerEvent: {}
+[38.514557] (-) TimerEvent: {}
+[38.615966] (-) TimerEvent: {}
+[38.716514] (-) TimerEvent: {}
+[38.817315] (-) TimerEvent: {}
+[38.918115] (-) TimerEvent: {}
+[39.018778] (-) TimerEvent: {}
+[39.119579] (-) TimerEvent: {}
+[39.220203] (-) TimerEvent: {}
+[39.320822] (-) TimerEvent: {}
+[39.422053] (-) TimerEvent: {}
+[39.522511] (-) TimerEvent: {}
+[39.623569] (-) TimerEvent: {}
+[39.724262] (-) TimerEvent: {}
+[39.825975] (-) TimerEvent: {}
+[39.927454] (-) TimerEvent: {}
+[40.028083] (-) TimerEvent: {}
+[40.128747] (-) TimerEvent: {}
+[40.231747] (-) TimerEvent: {}
+[40.332245] (-) TimerEvent: {}
+[40.432672] (-) TimerEvent: {}
+[40.533216] (-) TimerEvent: {}
+[40.633650] (-) TimerEvent: {}
+[40.734419] (-) TimerEvent: {}
+[40.834936] (-) TimerEvent: {}
+[40.935656] (-) TimerEvent: {}
+[41.036361] (-) TimerEvent: {}
+[41.136913] (-) TimerEvent: {}
+[41.237438] (-) TimerEvent: {}
+[41.301130] (robotpatrol) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX static library libnavigator.a\x1b[0m\n'}
+[41.337699] (-) TimerEvent: {}
+[41.438393] (-) TimerEvent: {}
+[41.539283] (-) TimerEvent: {}
+[41.559287] (robotpatrol) StdoutLine: {'line': b'[ 62%] Built target navigator\n'}
+[41.572020] (robotpatrol) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target testnavigation\x1b[0m\n'}
+[41.625080] (robotpatrol) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o\x1b[0m\n'}
+[41.640222] (-) TimerEvent: {}
+[41.741009] (-) TimerEvent: {}
+[41.841449] (-) TimerEvent: {}
+[41.942001] (-) TimerEvent: {}
+[42.042390] (-) TimerEvent: {}
+[42.142981] (-) TimerEvent: {}
+[42.244907] (-) TimerEvent: {}
+[42.345805] (-) TimerEvent: {}
+[42.446913] (-) TimerEvent: {}
+[42.547531] (-) TimerEvent: {}
+[42.649175] (-) TimerEvent: {}
+[42.749965] (-) TimerEvent: {}
+[42.850441] (-) TimerEvent: {}
+[42.951812] (-) TimerEvent: {}
+[43.052456] (-) TimerEvent: {}
+[43.153471] (-) TimerEvent: {}
+[43.254667] (-) TimerEvent: {}
+[43.355337] (-) TimerEvent: {}
+[43.455802] (-) TimerEvent: {}
+[43.556391] (-) TimerEvent: {}
+[43.656957] (-) TimerEvent: {}
+[43.757379] (-) TimerEvent: {}
+[43.857805] (-) TimerEvent: {}
+[43.959694] (-) TimerEvent: {}
+[44.060279] (-) TimerEvent: {}
+[44.160970] (-) TimerEvent: {}
+[44.265114] (-) TimerEvent: {}
+[44.366230] (-) TimerEvent: {}
+[44.435099] (robotpatrol) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/testnavigation.dir/src/navigation.cpp.o\x1b[0m\n'}
+[44.467559] (-) TimerEvent: {}
+[44.568231] (-) TimerEvent: {}
+[44.669764] (-) TimerEvent: {}
+[44.770330] (-) TimerEvent: {}
+[44.870671] (-) TimerEvent: {}
+[44.971237] (-) TimerEvent: {}
+[45.071974] (-) TimerEvent: {}
+[45.174634] (-) TimerEvent: {}
+[45.275114] (-) TimerEvent: {}
+[45.376797] (-) TimerEvent: {}
+[45.478308] (-) TimerEvent: {}
+[45.578858] (-) TimerEvent: {}
+[45.679405] (-) TimerEvent: {}
+[45.780060] (-) TimerEvent: {}
+[45.880630] (-) TimerEvent: {}
+[45.981068] (-) TimerEvent: {}
+[46.082514] (-) TimerEvent: {}
+[46.183437] (-) TimerEvent: {}
+[46.284008] (-) TimerEvent: {}
+[46.384674] (-) TimerEvent: {}
+[46.486248] (-) TimerEvent: {}
+[46.586626] (-) TimerEvent: {}
+[46.687096] (-) TimerEvent: {}
+[46.787922] (-) TimerEvent: {}
+[46.890441] (-) TimerEvent: {}
+[46.991052] (-) TimerEvent: {}
+[47.091632] (-) TimerEvent: {}
+[47.192218] (-) TimerEvent: {}
+[47.292810] (-) TimerEvent: {}
+[47.393572] (-) TimerEvent: {}
+[47.494316] (-) TimerEvent: {}
+[47.595510] (-) TimerEvent: {}
+[47.697094] (-) TimerEvent: {}
+[47.797612] (-) TimerEvent: {}
+[47.898195] (-) TimerEvent: {}
+[47.998855] (-) TimerEvent: {}
+[48.099645] (-) TimerEvent: {}
+[48.200098] (-) TimerEvent: {}
+[48.301220] (-) TimerEvent: {}
+[48.401595] (-) TimerEvent: {}
+[48.502280] (-) TimerEvent: {}
+[48.603065] (-) TimerEvent: {}
+[48.703715] (-) TimerEvent: {}
+[48.804551] (-) TimerEvent: {}
+[48.906360] (-) TimerEvent: {}
+[49.007671] (-) TimerEvent: {}
+[49.108556] (-) TimerEvent: {}
+[49.209596] (-) TimerEvent: {}
+[49.310064] (-) TimerEvent: {}
+[49.411078] (-) TimerEvent: {}
+[49.512582] (-) TimerEvent: {}
+[49.614194] (-) TimerEvent: {}
+[49.714711] (-) TimerEvent: {}
+[49.819391] (-) TimerEvent: {}
+[49.919819] (-) TimerEvent: {}
+[50.021414] (-) TimerEvent: {}
+[50.122308] (-) TimerEvent: {}
+[50.225628] (-) TimerEvent: {}
+[50.327420] (-) TimerEvent: {}
+[50.428603] (-) TimerEvent: {}
+[50.529037] (-) TimerEvent: {}
+[50.629861] (-) TimerEvent: {}
+[50.731455] (-) TimerEvent: {}
+[50.832012] (-) TimerEvent: {}
+[50.932581] (-) TimerEvent: {}
+[51.033118] (-) TimerEvent: {}
+[51.133685] (-) TimerEvent: {}
+[51.234467] (-) TimerEvent: {}
+[51.335850] (-) TimerEvent: {}
+[51.436459] (-) TimerEvent: {}
+[51.537154] (-) TimerEvent: {}
+[51.637737] (-) TimerEvent: {}
+[51.738146] (-) TimerEvent: {}
+[51.841137] (-) TimerEvent: {}
+[51.941749] (-) TimerEvent: {}
+[52.043040] (-) TimerEvent: {}
+[52.143998] (-) TimerEvent: {}
+[52.245146] (-) TimerEvent: {}
+[52.345682] (-) TimerEvent: {}
+[52.447218] (-) TimerEvent: {}
+[52.547966] (-) TimerEvent: {}
+[52.649437] (-) TimerEvent: {}
+[52.749990] (-) TimerEvent: {}
+[52.850566] (-) TimerEvent: {}
+[52.953119] (-) TimerEvent: {}
+[53.053746] (-) TimerEvent: {}
+[53.154334] (-) TimerEvent: {}
+[53.254872] (-) TimerEvent: {}
+[53.356450] (-) TimerEvent: {}
+[53.456796] (-) TimerEvent: {}
+[53.557378] (-) TimerEvent: {}
+[53.658278] (-) TimerEvent: {}
+[53.758893] (-) TimerEvent: {}
+[53.859587] (-) TimerEvent: {}
+[53.960108] (-) TimerEvent: {}
+[54.061681] (-) TimerEvent: {}
+[54.162187] (-) TimerEvent: {}
+[54.262740] (-) TimerEvent: {}
+[54.364332] (-) TimerEvent: {}
+[54.465951] (-) TimerEvent: {}
+[54.567434] (-) TimerEvent: {}
+[54.668000] (-) TimerEvent: {}
+[54.769625] (-) TimerEvent: {}
+[54.870181] (-) TimerEvent: {}
+[54.971794] (-) TimerEvent: {}
+[55.072304] (-) TimerEvent: {}
+[55.173902] (-) TimerEvent: {}
+[55.274637] (-) TimerEvent: {}
+[55.375055] (-) TimerEvent: {}
+[55.475939] (-) TimerEvent: {}
+[55.577245] (-) TimerEvent: {}
+[55.677919] (-) TimerEvent: {}
+[55.780364] (-) TimerEvent: {}
+[55.881209] (-) TimerEvent: {}
+[55.981697] (-) TimerEvent: {}
+[56.082091] (-) TimerEvent: {}
+[56.182451] (-) TimerEvent: {}
+[56.282863] (-) TimerEvent: {}
+[56.383193] (-) TimerEvent: {}
+[56.483531] (-) TimerEvent: {}
+[56.583897] (-) TimerEvent: {}
+[56.687612] (-) TimerEvent: {}
+[56.789252] (-) TimerEvent: {}
+[56.889918] (-) TimerEvent: {}
+[56.991328] (-) TimerEvent: {}
+[57.092396] (-) TimerEvent: {}
+[57.195362] (-) TimerEvent: {}
+[57.297067] (-) TimerEvent: {}
+[57.397844] (-) TimerEvent: {}
+[57.498141] (-) TimerEvent: {}
+[57.598761] (-) TimerEvent: {}
+[57.699352] (-) TimerEvent: {}
+[57.799776] (-) TimerEvent: {}
+[57.904216] (-) TimerEvent: {}
+[58.005037] (-) TimerEvent: {}
+[58.105606] (-) TimerEvent: {}
+[58.206234] (-) TimerEvent: {}
+[58.306847] (-) TimerEvent: {}
+[58.407616] (-) TimerEvent: {}
+[58.509021] (-) TimerEvent: {}
+[58.609572] (-) TimerEvent: {}
+[58.709909] (-) TimerEvent: {}
+[58.810753] (-) TimerEvent: {}
+[58.911569] (-) TimerEvent: {}
+[59.011940] (-) TimerEvent: {}
+[59.112454] (-) TimerEvent: {}
+[59.213134] (-) TimerEvent: {}
+[59.313631] (-) TimerEvent: {}
+[59.414803] (-) TimerEvent: {}
+[59.515869] (-) TimerEvent: {}
+[59.617483] (-) TimerEvent: {}
+[59.717952] (-) TimerEvent: {}
+[59.818456] (-) TimerEvent: {}
+[59.919151] (-) TimerEvent: {}
+[60.019776] (-) TimerEvent: {}
+[60.120330] (-) TimerEvent: {}
+[60.220980] (-) TimerEvent: {}
+[60.321508] (-) TimerEvent: {}
+[60.422085] (-) TimerEvent: {}
+[60.523697] (-) TimerEvent: {}
+[60.624240] (-) TimerEvent: {}
+[60.724963] (-) TimerEvent: {}
+[60.826472] (-) TimerEvent: {}
+[60.928985] (-) TimerEvent: {}
+[61.031561] (-) TimerEvent: {}
+[61.133404] (-) TimerEvent: {}
+[61.180766] (robotpatrol) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable testnavigation\x1b[0m\n'}
+[61.234877] (-) TimerEvent: {}
+[61.335564] (-) TimerEvent: {}
+[61.436198] (-) TimerEvent: {}
+[61.536976] (-) TimerEvent: {}
+[61.637361] (-) TimerEvent: {}
+[61.737862] (-) TimerEvent: {}
+[61.838541] (-) TimerEvent: {}
+[61.917350] (robotpatrol) StdoutLine: {'line': b'[100%] Built target testnavigation\n'}
+[61.933811] (robotpatrol) CommandEnded: {'returncode': 0}
+[61.939399] (-) TimerEvent: {}
+[61.980272] (robotpatrol) JobProgress: {'identifier': 'robotpatrol', 'progress': 'install'}
+[61.995157] (robotpatrol) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/admin/Desktop/Project180/src/build/robotpatrol'], 'cwd': '/home/admin/Desktop/Project180/src/build/robotpatrol', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '1475'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/admin/Desktop/Project180/install/robotpatrol/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/Desktop/Project180'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Desktop/Project180/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'admin'), ('JOURNAL_STREAM', '8:37702'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/CSE180F:@/tmp/.ICE-unix/1545,unix/CSE180F:/tmp/.ICE-unix/1545'), ('INVOCATION_ID', 'ac63f99a5bf6494ab3f86fef72cc0465'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3580fef2_8ffe_47d2_9b06_0b1cbd5d941a'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Desktop/Project180/install/robotpatrol:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Desktop/Project180/src/build/robotpatrol'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/admin/Desktop/Project180/install/robotpatrol:/opt/ros/foxy')]), 'shell': False}
+[62.008329] (robotpatrol) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[62.008567] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/library_path.sh\n'}
+[62.014077] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/library_path.dsv\n'}
+[62.014518] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/include\n'}
+[62.014579] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/include/navigation\n'}
+[62.014626] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/include/navigation/navigation.hpp\n'}
+[62.014672] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/lib/libnavigator.a\n'}
+[62.029233] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/lib/robotpatrol/testnavigation\n'}
+[62.034888] (robotpatrol) StdoutLine: {'line': b'-- Set runtime path of "/home/admin/Desktop/Project180/src/install/robotpatrol/lib/robotpatrol/testnavigation" to ""\n'}
+[62.035343] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/lib/robotpatrol/testpackage\n'}
+[62.040338] (-) TimerEvent: {}
+[62.041115] (robotpatrol) StdoutLine: {'line': b'-- Set runtime path of "/home/admin/Desktop/Project180/src/install/robotpatrol/lib/robotpatrol/testpackage" to ""\n'}
+[62.041371] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/ament_index/resource_index/package_run_dependencies/robotpatrol\n'}
+[62.041569] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/ament_index/resource_index/parent_prefix_path/robotpatrol\n'}
+[62.041766] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/ament_prefix_path.sh\n'}
+[62.041931] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/ament_prefix_path.dsv\n'}
+[62.042094] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/path.sh\n'}
+[62.042326] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/path.dsv\n'}
+[62.042504] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/local_setup.bash\n'}
+[62.042825] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/local_setup.sh\n'}
+[62.042925] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/local_setup.zsh\n'}
+[62.043049] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/local_setup.dsv\n'}
+[62.043219] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/package.dsv\n'}
+[62.043402] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/ament_index/resource_index/packages/robotpatrol\n'}
+[62.043630] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/navigatorlibExport.cmake\n'}
+[62.043810] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/navigatorlibExport-noconfig.cmake\n'}
+[62.044139] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[62.044239] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[62.044354] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/robotpatrolConfig.cmake\n'}
+[62.044471] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/robotpatrolConfig-version.cmake\n'}
+[62.044652] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/package.xml\n'}
+[62.048194] (robotpatrol) CommandEnded: {'returncode': 0}
+[62.118101] (robotpatrol) JobEnded: {'identifier': 'robotpatrol', 'rc': 0}
+[62.118801] (-) EventReactorShutdown: {}

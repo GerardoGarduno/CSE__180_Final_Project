@@ -1,0 +1,71 @@
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:50:16:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   50 |    RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"pose:",position.x, " ",position.y, " ", orientation.w = poses);
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:50:16:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:50:4:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   50 |    [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"pose:",position.x, " ",position.y, " ", orientation.w = poses);
+      |    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:50:4:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   50 |    [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"pose:",position.x, " ",position.y, " ", orientation.w = poses);
+      |    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:50:4:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   50 |    [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"pose:",position.x, " ",position.y, " ", orientation.w = poses);
+      |    [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:50:16:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   50 |    RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"pose:",position.x, " ",position.y, " ", orientation.w = poses);
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:50:16:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   50 |    RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(),"pose:",position.x, " ",position.y, " ", orientation.w = poses);
+      |                [01;31m[K^~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:50:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition[m[K’ was not declared in this scope
+   50 |    RCLCPP_INFO(this->get_logger(),"pose:",[01;31m[Kposition[m[K.x, " ",position.y, " ", orientation.w = poses);
+      |                                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:50:76:[m[K [01;31m[Kerror: [m[K‘[01m[Korientation[m[K’ was not declared in this scope
+   50 |    RCLCPP_INFO(this->get_logger(),"pose:",position.x, " ",position.y, " ", [01;31m[Korientation[m[K.w = poses);
+      |                                                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:52:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pos[m[K’ was not declared in this scope
+   52 |     navigator.GoToPose([01;31m[Kgoal_pos[m[K);
+      |                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K At global scope:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:57:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knavigator[m[K’ does not name a type; did you mean ‘[01m[KNavigator[m[K’?
+   57 |   [01;31m[Knavigator[m[K.Backup();
+      |   [01;31m[K^~~~~~~~~[m[K
+      |   [32m[KNavigator[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:58:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+   58 |   [01;31m[Kwhile[m[K ( ! navigator.IsTaskComplete() ) {}
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:62:21:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+   62 |   rclcpp::shutdown()[01;31m[K;[m[K // shutdown ROS
+      |                     [01;31m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:63:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+   63 |   [01;31m[Kreturn[m[K 0;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:64:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   64 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/testnavigation.dir/build.make:63: CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/testnavigation.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

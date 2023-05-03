@@ -1,0 +1,69 @@
+[ 37%] Built target testpackage
+[ 62%] Built target navigator
+[35m[1mScanning dependencies of target testnavigation[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o[0m
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:7:5:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    7 |   { [01;35m[K.[m[Kposition = { .x = -2, .y = -0.5 }, .orientation = { .w = 1 } },
+      |     [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:7:19:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    7 |   { .position = { [01;35m[K.[m[Kx = -2, .y = -0.5 }, .orientation = { .w = 1 } },
+      |                   [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:7:28:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    7 |   { .position = { .x = -2, [01;35m[K.[m[Ky = -0.5 }, .orientation = { .w = 1 } },
+      |                            [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:7:41:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    7 |   { .position = { .x = -2, .y = -0.5 }, [01;35m[K.[m[Korientation = { .w = 1 } },
+      |                                         [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:7:58:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    7 |   { .position = { .x = -2, .y = -0.5 }, .orientation = { [01;35m[K.[m[Kw = 1 } },
+      |                                                          [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:8:5:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    8 |   { [01;35m[K.[m[Kposition = { .x = 2, .y = 1 }, .orientation = { .w = 1 } },
+      |     [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:8:19:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    8 |   { .position = { [01;35m[K.[m[Kx = 2, .y = 1 }, .orientation = { .w = 1 } },
+      |                   [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:8:27:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    8 |   { .position = { .x = 2, [01;35m[K.[m[Ky = 1 }, .orientation = { .w = 1 } },
+      |                           [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:8:37:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    8 |   { .position = { .x = 2, .y = 1 }, [01;35m[K.[m[Korientation = { .w = 1 } },
+      |                                     [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:8:54:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    8 |   { .position = { .x = 2, .y = 1 }, .orientation = { [01;35m[K.[m[Kw = 1 } },
+      |                                                      [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:9:5:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    9 |   { [01;35m[K.[m[Kposition = { .x = 2, .y = -1 }, .orientation = { .w = 1 } }
+      |     [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:9:19:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    9 |   { .position = { [01;35m[K.[m[Kx = 2, .y = -1 }, .orientation = { .w = 1 } }
+      |                   [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:9:27:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    9 |   { .position = { .x = 2, [01;35m[K.[m[Ky = -1 }, .orientation = { .w = 1 } }
+      |                           [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:9:38:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    9 |   { .position = { .x = 2, .y = -1 }, [01;35m[K.[m[Korientation = { .w = 1 } }
+      |                                      [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:9:55:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+    9 |   { .position = { .x = 2, .y = -1 }, .orientation = { [01;35m[K.[m[Kw = 1 } }
+      |                                                       [01;35m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:10:1:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{{-2, -5.0e-1}, {1}}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’}
+   10 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+      | [01;31m[K|[m[K
+      | [01;31m[K<brace-enclosed initializer list>[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:10:1:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{{2, 1}, {1}}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’}
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:10:1:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{{2, -1}, {1}}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’}
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:28:24:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgeometry_msgs::msg::Pose*[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >*[m[K’} to ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<geometry_msgs::msg::Pose_<std::allocator<void> > >[m[K’}
+   28 |     navigator.GoToPose([01;31m[K&poses[i][m[K);
+      |                        [01;31m[K^~~~~~~~~[m[K
+      |                        [01;31m[K|[m[K
+      |                        [01;31m[Kgeometry_msgs::msg::Pose* {aka geometry_msgs::msg::Pose_<std::allocator<void> >*}[m[K
+In file included from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:2[m[K:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/include/navigation/navigation.hpp:54:17:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kbool Navigator::GoToPose(geometry_msgs::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’
+   54 |   bool GoToPose([01;36m[Kconst geometry_msgs::msg::Pose::SharedPtr[m[K);
+      |                 [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/testnavigation.dir/build.make:63: CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/testnavigation.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

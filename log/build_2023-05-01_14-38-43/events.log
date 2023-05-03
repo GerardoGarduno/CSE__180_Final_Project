@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000610] (robotpatrol) JobQueued: {'identifier': 'robotpatrol', 'dependencies': OrderedDict()}
+[0.001116] (robotpatrol) JobStarted: {'identifier': 'robotpatrol'}
+[0.013434] (robotpatrol) JobProgress: {'identifier': 'robotpatrol', 'progress': 'cmake'}
+[0.014557] (robotpatrol) JobProgress: {'identifier': 'robotpatrol', 'progress': 'build'}
+[0.015500] (robotpatrol) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/Desktop/Project180/build/robotpatrol', '--', '-j8', '-l8'], 'cwd': '/home/admin/Desktop/Project180/build/robotpatrol', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '1497'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/admin/Desktop/Project180/src/install/robotpatrol/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/Desktop/Project180/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1322'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Desktop/Project180/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'admin'), ('JOURNAL_STREAM', '8:33307'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/CSE180F:@/tmp/.ICE-unix/1567,unix/CSE180F:/tmp/.ICE-unix/1567'), ('INVOCATION_ID', 'bbfe64ce4c3640ddaf539f1e93be0908'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/37b9f49d_1271_462b_95e9_47afab8cc64b'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.77'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Desktop/Project180/src/install/robotpatrol:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Desktop/Project180/build/robotpatrol'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/admin/Desktop/Project180/src/install/robotpatrol:/opt/ros/foxy')]), 'shell': False}
+[0.080676] (robotpatrol) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target testnavigation\x1b[0m\n'}
+[0.100762] (-) TimerEvent: {}
+[0.101198] (robotpatrol) StdoutLine: {'line': b'[ 25%] Built target navigator\n'}
+[0.108728] (robotpatrol) StdoutLine: {'line': b'[ 62%] Built target testpackage\n'}
+[0.128030] (robotpatrol) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o\x1b[0m\n'}
+[0.201155] (-) TimerEvent: {}
+[0.302459] (-) TimerEvent: {}
+[0.403192] (-) TimerEvent: {}
+[0.503584] (-) TimerEvent: {}
+[0.604223] (-) TimerEvent: {}
+[0.704802] (-) TimerEvent: {}
+[0.805580] (-) TimerEvent: {}
+[0.906022] (-) TimerEvent: {}
+[1.006534] (-) TimerEvent: {}
+[1.107396] (-) TimerEvent: {}
+[1.207754] (-) TimerEvent: {}
+[1.308364] (-) TimerEvent: {}
+[1.409233] (-) TimerEvent: {}
+[1.509579] (-) TimerEvent: {}
+[1.537736] (robotpatrol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid pathCallBack(nav_msgs::msg::Path_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.538127] (robotpatrol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:36:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf2\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.538223] (robotpatrol) StderrLine: {'line': b'   36 |               << " yaw: " << \x1b[01;31m\x1b[Ktf2\x1b[m\x1b[K::getYaw(pose.pose.orientation) << std::endl;\n'}
+[1.538289] (robotpatrol) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.564389] (robotpatrol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.564644] (robotpatrol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:71:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf2\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.564715] (robotpatrol) StderrLine: {'line': b'   71 |               << " yaw: " << \x1b[01;31m\x1b[Ktf2\x1b[m\x1b[K::getYaw(pose.pose.orientation) << std::endl;\n'}
+[1.564768] (robotpatrol) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.564816] (robotpatrol) StderrLine: {'line': b'\x1b[01m\x1b[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:74:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin(Navigator&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.564864] (robotpatrol) StderrLine: {'line': b'   74 |   rclcpp::spin(navigator\x1b[01;31m\x1b[K)\x1b[m\x1b[K; // spin until shutdown\n'}
+[1.564911] (robotpatrol) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.564956] (robotpatrol) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.565003] (robotpatrol) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17\x1b[m\x1b[K:\n'}
+[1.565117] (robotpatrol) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.565192] (robotpatrol) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[1.565237] (robotpatrol) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.565282] (robotpatrol) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:45:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KNavigator\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.565331] (robotpatrol) StderrLine: {'line': b'   45 | spin(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[1.565374] (robotpatrol) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.565437] (robotpatrol) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.565495] (robotpatrol) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[1.565540] (robotpatrol) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.565583] (robotpatrol) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:49:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KNavigator\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.565629] (robotpatrol) StderrLine: {'line': b'   49 | spin(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[1.565675] (robotpatrol) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.610076] (-) TimerEvent: {}
+[1.710687] (-) TimerEvent: {}
+[1.811263] (-) TimerEvent: {}
+[1.911773] (-) TimerEvent: {}
+[2.012429] (-) TimerEvent: {}
+[2.113464] (-) TimerEvent: {}
+[2.213965] (-) TimerEvent: {}
+[2.315280] (-) TimerEvent: {}
+[2.416021] (-) TimerEvent: {}
+[2.516442] (-) TimerEvent: {}
+[2.616958] (-) TimerEvent: {}
+[2.717899] (-) TimerEvent: {}
+[2.819077] (-) TimerEvent: {}
+[2.919485] (-) TimerEvent: {}
+[3.020330] (-) TimerEvent: {}
+[3.120868] (-) TimerEvent: {}
+[3.221585] (-) TimerEvent: {}
+[3.321980] (-) TimerEvent: {}
+[3.423613] (-) TimerEvent: {}
+[3.523982] (-) TimerEvent: {}
+[3.624792] (-) TimerEvent: {}
+[3.725434] (-) TimerEvent: {}
+[3.826022] (-) TimerEvent: {}
+[3.851058] (robotpatrol) StderrLine: {'line': b'make[2]: *** [CMakeFiles/testnavigation.dir/build.make:63: CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o] Error 1\n'}
+[3.851521] (robotpatrol) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/testnavigation.dir/all] Error 2\n'}
+[3.851805] (robotpatrol) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.854605] (robotpatrol) CommandEnded: {'returncode': 2}
+[3.899936] (robotpatrol) JobEnded: {'identifier': 'robotpatrol', 'rc': 2}
+[3.910901] (-) EventReactorShutdown: {}

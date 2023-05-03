@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.001315] (robotpatrol) JobQueued: {'identifier': 'robotpatrol', 'dependencies': OrderedDict()}
+[0.001358] (robotpatrol) JobStarted: {'identifier': 'robotpatrol'}
+[0.016899] (robotpatrol) JobProgress: {'identifier': 'robotpatrol', 'progress': 'cmake'}
+[0.018221] (robotpatrol) JobProgress: {'identifier': 'robotpatrol', 'progress': 'build'}
+[0.019351] (robotpatrol) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/Desktop/Project180/src/build/robotpatrol', '--', '-j8', '-l8'], 'cwd': '/home/admin/Desktop/Project180/src/build/robotpatrol', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '1475'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/admin/Desktop/Project180/install/robotpatrol/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/Desktop/Project180'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Desktop/Project180/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'admin'), ('JOURNAL_STREAM', '8:37702'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/CSE180F:@/tmp/.ICE-unix/1545,unix/CSE180F:/tmp/.ICE-unix/1545'), ('INVOCATION_ID', 'ac63f99a5bf6494ab3f86fef72cc0465'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3580fef2_8ffe_47d2_9b06_0b1cbd5d941a'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Desktop/Project180/install/robotpatrol:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Desktop/Project180/src/build/robotpatrol'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/admin/Desktop/Project180/install/robotpatrol:/opt/ros/foxy')]), 'shell': False}
+[0.088485] (robotpatrol) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target testnavigation\x1b[0m\n'}
+[0.100174] (-) TimerEvent: {}
+[0.121101] (robotpatrol) StdoutLine: {'line': b'[ 37%] Built target testpackage\n'}
+[0.133930] (robotpatrol) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o\x1b[0m\n'}
+[0.179141] (robotpatrol) StdoutLine: {'line': b'[ 75%] Built target navigator\n'}
+[0.200557] (-) TimerEvent: {}
+[0.301206] (-) TimerEvent: {}
+[0.401707] (-) TimerEvent: {}
+[0.502281] (-) TimerEvent: {}
+[0.602652] (-) TimerEvent: {}
+[0.704468] (-) TimerEvent: {}
+[0.806160] (-) TimerEvent: {}
+[0.906603] (-) TimerEvent: {}
+[1.007007] (-) TimerEvent: {}
+[1.108459] (-) TimerEvent: {}
+[1.209106] (-) TimerEvent: {}
+[1.310608] (-) TimerEvent: {}
+[1.411475] (-) TimerEvent: {}
+[1.512019] (-) TimerEvent: {}
+[1.612478] (-) TimerEvent: {}
+[1.714003] (-) TimerEvent: {}
+[1.814519] (-) TimerEvent: {}
+[1.915327] (-) TimerEvent: {}
+[2.015714] (-) TimerEvent: {}
+[2.116289] (-) TimerEvent: {}
+[2.217085] (-) TimerEvent: {}
+[2.317499] (-) TimerEvent: {}
+[2.418085] (-) TimerEvent: {}
+[2.518643] (-) TimerEvent: {}
+[2.626444] (-) TimerEvent: {}
+[2.729590] (-) TimerEvent: {}
+[2.732157] (robotpatrol) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable testnavigation\x1b[0m\n'}
+[2.829834] (-) TimerEvent: {}
+[2.930339] (-) TimerEvent: {}
+[3.031352] (-) TimerEvent: {}
+[3.131934] (-) TimerEvent: {}
+[3.232581] (-) TimerEvent: {}
+[3.334289] (-) TimerEvent: {}
+[3.434842] (-) TimerEvent: {}
+[3.452523] (robotpatrol) StdoutLine: {'line': b'[100%] Built target testnavigation\n'}
+[3.467269] (robotpatrol) CommandEnded: {'returncode': 0}
+[3.518307] (robotpatrol) JobProgress: {'identifier': 'robotpatrol', 'progress': 'install'}
+[3.532270] (robotpatrol) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/admin/Desktop/Project180/src/build/robotpatrol'], 'cwd': '/home/admin/Desktop/Project180/src/build/robotpatrol', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'admin'), ('SSH_AGENT_PID', '1475'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/admin/Desktop/Project180/install/robotpatrol/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/Desktop/Project180'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/admin/Desktop/Project180/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'admin'), ('JOURNAL_STREAM', '8:37702'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/CSE180F:@/tmp/.ICE-unix/1545,unix/CSE180F:/tmp/.ICE-unix/1545'), ('INVOCATION_ID', 'ac63f99a5bf6494ab3f86fef72cc0465'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3580fef2_8ffe_47d2_9b06_0b1cbd5d941a'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/Desktop/Project180/install/robotpatrol:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/Desktop/Project180/src/build/robotpatrol'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/admin/Desktop/Project180/install/robotpatrol:/opt/ros/foxy')]), 'shell': False}
+[3.535562] (-) TimerEvent: {}
+[3.545609] (robotpatrol) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.545909] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/library_path.sh\n'}
+[3.546019] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/library_path.dsv\n'}
+[3.546100] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/include\n'}
+[3.546178] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/include/navigation\n'}
+[3.546250] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/include/navigation/navigation.hpp\n'}
+[3.546314] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/lib/libnavigator.a\n'}
+[3.546413] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/lib/robotpatrol/testnavigation\n'}
+[3.552562] (robotpatrol) StdoutLine: {'line': b'-- Set runtime path of "/home/admin/Desktop/Project180/src/install/robotpatrol/lib/robotpatrol/testnavigation" to ""\n'}
+[3.552799] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/lib/robotpatrol/testpackage\n'}
+[3.552912] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/ament_index/resource_index/package_run_dependencies/robotpatrol\n'}
+[3.553003] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/ament_index/resource_index/parent_prefix_path/robotpatrol\n'}
+[3.553095] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/ament_prefix_path.sh\n'}
+[3.553160] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/ament_prefix_path.dsv\n'}
+[3.553251] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/path.sh\n'}
+[3.553322] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/path.dsv\n'}
+[3.553422] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/local_setup.bash\n'}
+[3.553489] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/local_setup.sh\n'}
+[3.553550] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/local_setup.zsh\n'}
+[3.553610] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/local_setup.dsv\n'}
+[3.553730] (robotpatrol) StdoutLine: {'line': b'-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/package.dsv\n'}
+[3.553807] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/ament_index/resource_index/packages/robotpatrol\n'}
+[3.553869] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/navigatorlibExport.cmake\n'}
+[3.554018] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/navigatorlibExport-noconfig.cmake\n'}
+[3.554096] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.554161] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.554491] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/robotpatrolConfig.cmake\n'}
+[3.554560] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/robotpatrolConfig-version.cmake\n'}
+[3.554618] (robotpatrol) StdoutLine: {'line': b'-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/package.xml\n'}
+[3.557856] (robotpatrol) CommandEnded: {'returncode': 0}
+[3.636074] (-) TimerEvent: {}
+[3.637354] (robotpatrol) JobEnded: {'identifier': 'robotpatrol', 'rc': 0}
+[3.638517] (-) EventReactorShutdown: {}

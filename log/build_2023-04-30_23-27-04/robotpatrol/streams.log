@@ -1,0 +1,30 @@
+[0.030s] Invoking command in '/home/admin/Desktop/Project180/build/robotpatrol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/build/robotpatrol -- -j8 -l8
+[0.134s] [ 37%] Built target testpackage
+[0.170s] [ 62%] Built target navigator
+[0.204s] [35m[1mScanning dependencies of target testnavigation[0m
+[0.246s] [ 75%] [32mBuilding CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o[0m
+[0.380s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:105:30:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.380s]   105 |   goal_pos.header.frame_id = [01;35m[K'map'[m[K
+[0.380s]       |                              [01;35m[K^~~~~[m[K
+[0.380s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:113:30:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.380s]   113 |   goal_pos.header.frame_id = [01;35m[K'map'[m[K
+[0.380s]       |                              [01;35m[K^~~~~[m[K
+[0.381s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:121:30:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.381s]   121 |   goal_pos.header.frame_id = [01;35m[K'map'[m[K
+[0.381s]       |                              [01;35m[K^~~~~[m[K
+[0.381s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:129:30:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.381s]   129 |   goal_pos.header.frame_id = [01;35m[K'map'[m[K
+[0.381s]       |                              [01;35m[K^~~~~[m[K
+[2.114s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.114s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:102:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pose[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoal_pos[m[K’?
+[2.114s]   102 |   [01;31m[Kgoal_pose[m[K = []
+[2.114s]       |   [01;31m[K^~~~~~~~~[m[K
+[2.115s]       |   [32m[Kgoal_pos[m[K
+[2.115s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In lambda function:
+[2.115s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:104:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Kgoal_pos[m[K’
+[2.115s]   104 |   [01;31m[Kgoal_pos[m[K = PoseStamped()
+[2.115s]       |   [01;31m[K^~~~~~~~[m[K
+[4.183s] make[2]: *** [CMakeFiles/testnavigation.dir/build.make:63: CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o] Error 1
+[4.183s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/testnavigation.dir/all] Error 2
+[4.183s] make: *** [Makefile:141: all] Error 2
+[4.184s] Invoked command in '/home/admin/Desktop/Project180/build/robotpatrol' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/build/robotpatrol -- -j8 -l8

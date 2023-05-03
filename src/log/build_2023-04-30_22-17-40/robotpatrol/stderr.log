@@ -1,0 +1,4 @@
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:48:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kposes[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   48 |   float [01;35m[Kposes[m[K[] = {
+      |         [01;35m[K^~~~~[m[K

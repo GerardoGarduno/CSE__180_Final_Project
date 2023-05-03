@@ -1,0 +1,107 @@
+[0.295s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.295s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f21ec96ed00>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f21ec96ed00>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f21ec9792b0>)
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.322s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/admin/Desktop/Project180/src'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(robotpatrol) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(robotpatrol) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(robotpatrol) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(robotpatrol) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(robotpatrol) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(robotpatrol) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(robotpatrol) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(robotpatrol) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(robotpatrol) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'robotpatrol' with type 'ros.ament_cmake' and name 'robotpatrol'
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.378s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/admin/Desktop/Project180/install
+[0.380s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 335 installed packages in /opt/ros/foxy
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'robotpatrol' build argument 'cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'robotpatrol' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'robotpatrol' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'robotpatrol' build argument 'cmake_clean_cache' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'robotpatrol' build argument 'cmake_clean_first' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'robotpatrol' build argument 'cmake_force_configure' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'robotpatrol' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'robotpatrol' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'robotpatrol' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'robotpatrol' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/admin/Desktop/Project180/src/build/robotpatrol', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/admin/Desktop/Project180/src/install/robotpatrol', 'merge_install': False, 'path': '/home/admin/Desktop/Project180/src/robotpatrol', 'symlink_install': False, 'test_result_base': None}
+[0.456s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.461s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/admin/Desktop/Project180/src/robotpatrol' with build type 'ament_cmake'
+[0.461s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/admin/Desktop/Project180/src/robotpatrol'
+[0.465s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/admin/Desktop/Project180/src/build/robotpatrol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/src/build/robotpatrol -- -j8 -l8
+[3.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/admin/Desktop/Project180/src/build/robotpatrol' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/src/build/robotpatrol -- -j8 -l8
+[3.197s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotpatrol)
+[3.202s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/Project180/src/install/robotpatrol' for CMake module files
+[3.203s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/Project180/src/install/robotpatrol' for CMake config files
+[3.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotpatrol', 'cmake_prefix_path')
+[3.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/hook/cmake_prefix_path.ps1'
+[3.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/hook/cmake_prefix_path.dsv'
+[3.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/hook/cmake_prefix_path.sh'
+[3.207s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/Project180/src/install/robotpatrol/lib'
+[3.207s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/Project180/src/install/robotpatrol/bin'
+[3.208s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/Project180/src/install/robotpatrol/lib/pkgconfig/robotpatrol.pc'
+[3.208s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/Project180/src/install/robotpatrol/lib/python3.8/site-packages'
+[3.208s] Level 1:colcon.colcon_core.environment:checking '/home/admin/Desktop/Project180/src/install/robotpatrol/bin'
+[3.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/package.ps1'
+[3.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/package.dsv'
+[3.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/package.sh'
+[3.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/package.bash'
+[3.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/package.zsh'
+[3.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/admin/Desktop/Project180/src/install/robotpatrol/share/colcon-core/packages/robotpatrol)
+[3.213s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.213s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.213s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.214s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.219s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.234s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.236s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/admin/Desktop/Project180/src/install/local_setup.ps1'
+[3.237s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/admin/Desktop/Project180/src/install/_local_setup_util_ps1.py'
+[3.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/admin/Desktop/Project180/src/install/setup.ps1'
+[3.240s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/admin/Desktop/Project180/src/install/local_setup.sh'
+[3.241s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/admin/Desktop/Project180/src/install/_local_setup_util_sh.py'
+[3.241s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/admin/Desktop/Project180/src/install/setup.sh'
+[3.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/admin/Desktop/Project180/src/install/local_setup.bash'
+[3.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/admin/Desktop/Project180/src/install/setup.bash'
+[3.244s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/admin/Desktop/Project180/src/install/local_setup.zsh'
+[3.244s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/admin/Desktop/Project180/src/install/setup.zsh'

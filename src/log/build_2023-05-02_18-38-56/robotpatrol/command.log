@@ -1,0 +1,4 @@
+Invoking command in '/home/admin/Desktop/Project180/src/build/robotpatrol': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/src/build/robotpatrol -- -j8 -l8
+Invoked command in '/home/admin/Desktop/Project180/src/build/robotpatrol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/src/build/robotpatrol -- -j8 -l8
+Invoking command in '/home/admin/Desktop/Project180/src/build/robotpatrol': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/admin/Desktop/Project180/src/build/robotpatrol
+Invoked command in '/home/admin/Desktop/Project180/src/build/robotpatrol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/admin/Desktop/Project180/src/build/robotpatrol

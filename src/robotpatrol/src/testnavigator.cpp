@@ -16,19 +16,35 @@ limitations under the License.
 
 #include <rclcpp/rclcpp.hpp> 
 #include <navigation/navigation.hpp>
+//need to print
+#include <std_msgs/msg/float32.hpp>
+//need to print
+#include <nav_msgs/msg/occupancy_grid.hpp>
 #include <iostream>
  //include map info when starting ??
-//void mapCallBack(const nav_msgs::msg::OccupancyGrid::SharedPtr msg){
-//	RCLCPP_INFO(this->get_logger(),"Waiting for Nav2");
-//	RCLCPP_INFO(this->get_logger(),"Waiting for Nav2");
-//	RCLCPP_INFO(this->get_logger(),"Waiting for Nav2");
-//	RCLCPP_INFO(this->get_logger(),"Waiting for Nav2");
-//}
+
+void mapCallBack(const nav_msgs::msg::OccupancyGrid::SharedPtr msg) {
+  // Get map info
+  // int map_width = msg->info.width;
+  // int map_height = msg->info.height;
+  // float map_resolution = msg->info.resolution;
+
+  // Print map info to console
+  //RCLCPP_INFO(rclcpp::get_logger("mapCallback"), "Received map with width: %d, height: %d, and resolution: %f", map_width, map_height, map_resolution);
+  // std::cout<<msg->info.map_width<<std::endl;
+  //std::cout<< "map dimensions:" << "width: " << map_width << " hieght:" << map_height << "resolution" << map_resolution << std::endl;
+
+}
+void pathCallBack(const nav_msgs::msg::Path::SharedPtr msg) {
+  for (const auto& pose : msg->poses) {
+    std::cout <<"Currently Iam at: "<< "x: " << pose.pose.position.x << " y: " << pose.pose.position.y << std::endl;
+  }
+}
 
 int main(int argc,char **argv) {
- 
   rclcpp::init(argc,argv); // initialize ROS 
   Navigator navigator(true,false); // create node with debug info but not verbose
+  //RCLCPP_INFO(rclcpp::get_logger(navigator),"--------------TEST-------------");
 
   // first: it is mandatory to initialize the pose of the robot
   geometry_msgs::msg::Pose::SharedPtr init = std::make_shared<geometry_msgs::msg::Pose>();
@@ -36,38 +52,38 @@ int main(int argc,char **argv) {
   init->position.y = -0.5;
   init->orientation.w = 1;
   navigator.SetInitialPose(init);
+  
   // wait for navigation stack to become operationale
   navigator.WaitUntilNav2Active();
+  
+  // subscribe to map topic
+  auto map_sub = navigator.create_subscription<nav_msgs::msg::OccupancyGrid>("map", 10, mapCallBack);
+  // subscribe to plan topic and set callback to pathCallBack
+  auto path_sub = navigator.create_subscription<nav_msgs::msg::Path>("plan", 10, pathCallBack);
   // spin in place of 90 degrees (default parameter)
   navigator.Spin();
   while ( ! navigator.IsTaskComplete() ) {
     // busy waiting for task to be completed
   }
-  geometry_msgs::msg::Pose::SharedPtr goal_pos = std::make_shared<geometry_msgs::msg::Pose>();
-  goal_pos->position.x = 2;
-  goal_pos->position.y = 1;
-  goal_pos->orientation.w = 1;
-  // move to new pose
-  navigator.GoToPose(goal_pos);
-  while ( ! navigator.IsTaskComplete() ) {
-    
-  }
-  goal_pos->position.x = 2;
-  goal_pos->position.y = -1;
-  goal_pos->orientation.w = 1;
-  navigator.GoToPose(goal_pos);
-  // move to new pose
-  while ( ! navigator.IsTaskComplete() ) {
-    
-  }
-  // backup of 0.15 m (deafult distance)
-  navigator.Backup();
-  while ( ! navigator.IsTaskComplete() ) {
-    
-  }
+  // move to the poses in the arrays
+  double arrayx[] ={-2,-0.5,-0.5,-0.5,0.5,0.5,0.5,2,2};
+  double arrayy[] ={1,2,0,-2,-1.5,0,2,1,-1};
+  int arraySize = sizeof(arrayy)/sizeof(double);
+  for (int i = 0; i < arraySize; i++) {
+    // set goal pose
+    geometry_msgs::msg::Pose::SharedPtr goal_pos = std::make_shared<geometry_msgs::msg::Pose>();
+    goal_pos->position.x = arrayx[i];
+    goal_pos->position.y = arrayy[i];
+    goal_pos->orientation.w = 1;
 
-  // complete here....
-  
+    // send goal pose to navigator and wait for task completion
+    navigator.GoToPose(goal_pos);
+    //call the laser
+    while (!navigator.IsTaskComplete()) {
+      // busy waiting for task to be completed
+    }
+  }
+  //prints path that it follows can be usful to find other path .....
   rclcpp::shutdown(); // shutdown ROS
   return 0;
 }

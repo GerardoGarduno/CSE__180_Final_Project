@@ -1,0 +1,30 @@
+[0.041s] Invoking command in '/home/admin/Desktop/Project180/build/robotpatrol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/build/robotpatrol -- -j8 -l8
+[0.081s] [35m[1mScanning dependencies of target testnavigation[0m
+[0.110s] [ 25%] Built target navigator
+[0.113s] [ 62%] Built target testpackage
+[0.117s] [ 75%] [32mBuilding CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o[0m
+[1.763s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.763s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.763s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.763s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.763s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.764s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.764s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.764s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.764s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.764s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.764s]                  from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[1.764s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.764s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:57:115:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_width[m[K’ was not declared in this scope
+[1.764s]    57 |     RCLCPP_INFO(rclcpp::get_logger("mapCallback"), "Received map with width: %d, height: %d, and resolution: %f", [01;31m[Kmap_width[m[K, map_height, map_resolution);
+[1.764s]       |                                                                                                                   [01;31m[K^~~~~~~~~[m[K
+[1.766s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:57:126:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_height[m[K’ was not declared in this scope
+[1.766s]    57 |     RCLCPP_INFO(rclcpp::get_logger("mapCallback"), "Received map with width: %d, height: %d, and resolution: %f", map_width, [01;31m[Kmap_height[m[K, map_resolution);
+[1.766s]       |                                                                                                                              [01;31m[K^~~~~~~~~~[m[K
+[1.771s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:57:138:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_resolution[m[K’ was not declared in this scope
+[1.771s]    57 |     RCLCPP_INFO(rclcpp::get_logger("mapCallback"), "Received map with width: %d, height: %d, and resolution: %f", map_width, map_height, [01;31m[Kmap_resolution[m[K);
+[1.771s]       |                                                                                                                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.510s] make[2]: *** [CMakeFiles/testnavigation.dir/build.make:63: CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o] Error 1
+[3.510s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/testnavigation.dir/all] Error 2
+[3.510s] make: *** [Makefile:141: all] Error 2
+[3.511s] Invoked command in '/home/admin/Desktop/Project180/build/robotpatrol' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/build/robotpatrol -- -j8 -l8

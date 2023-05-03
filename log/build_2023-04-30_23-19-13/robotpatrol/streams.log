@@ -1,0 +1,39 @@
+[0.020s] Invoking command in '/home/admin/Desktop/Project180/build/robotpatrol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/build/robotpatrol -- -j8 -l8
+[0.144s] [ 37%] Built target testpackage
+[0.192s] [ 62%] Built target navigator
+[0.208s] [35m[1mScanning dependencies of target testnavigation[0m
+[0.258s] [ 75%] [32mBuilding CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o[0m
+[2.940s] [ 87%] [32m[1mLinking CXX executable testnavigation[0m
+[3.790s] [100%] Built target testnavigation
+[3.806s] Invoked command in '/home/admin/Desktop/Project180/build/robotpatrol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/build/robotpatrol -- -j8 -l8
+[3.866s] Invoking command in '/home/admin/Desktop/Project180/build/robotpatrol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/admin/Desktop/Project180/build/robotpatrol
+[3.880s] -- Install configuration: ""
+[3.881s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/environment/library_path.sh
+[3.881s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/environment/library_path.dsv
+[3.881s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/include
+[3.881s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/include/navigation
+[3.881s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/include/navigation/navigation.hpp
+[3.881s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/lib/libnavigator.a
+[3.881s] -- Installing: /home/admin/Desktop/Project180/install/robotpatrol/lib/robotpatrol/testnavigation
+[3.888s] -- Set runtime path of "/home/admin/Desktop/Project180/install/robotpatrol/lib/robotpatrol/testnavigation" to ""
+[3.889s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/lib/robotpatrol/testpackage
+[3.889s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/ament_index/resource_index/package_run_dependencies/robotpatrol
+[3.889s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/ament_index/resource_index/parent_prefix_path/robotpatrol
+[3.889s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/environment/ament_prefix_path.sh
+[3.889s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/environment/ament_prefix_path.dsv
+[3.889s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/environment/path.sh
+[3.889s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/environment/path.dsv
+[3.889s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/local_setup.bash
+[3.889s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/local_setup.sh
+[3.889s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/local_setup.zsh
+[3.889s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/local_setup.dsv
+[3.889s] -- Installing: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/package.dsv
+[3.890s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/ament_index/resource_index/packages/robotpatrol
+[3.890s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/cmake/navigatorlibExport.cmake
+[3.890s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/cmake/navigatorlibExport-noconfig.cmake
+[3.890s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/cmake/ament_cmake_export_targets-extras.cmake
+[3.890s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.890s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/cmake/robotpatrolConfig.cmake
+[3.890s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/cmake/robotpatrolConfig-version.cmake
+[3.890s] -- Up-to-date: /home/admin/Desktop/Project180/install/robotpatrol/share/robotpatrol/package.xml
+[3.893s] Invoked command in '/home/admin/Desktop/Project180/build/robotpatrol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/admin/Desktop/Project180/build/robotpatrol

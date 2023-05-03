@@ -1,0 +1,39 @@
+[0.021s] Invoking command in '/home/admin/Desktop/Project180/build/robotpatrol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/build/robotpatrol -- -j8 -l8
+[0.070s] [35m[1mScanning dependencies of target testnavigation[0m
+[0.090s] [ 25%] Built target navigator
+[0.096s] [ 62%] Built target testpackage
+[0.107s] [ 75%] [32mBuilding CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o[0m
+[1.734s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kvoid mapCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr, std::vector<geometry_msgs::msg::Point_<std::allocator<void> > >&)[m[K’:
+[1.734s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:10:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.734s]    10 |   for (int x = 0; [01;35m[Kx < msg->info.width[m[K; x++) {
+[1.734s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[1.734s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:11:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[1.734s]    11 |     for (int y = 0; [01;35m[Ky < msg->info.height[m[K; y++) {
+[1.734s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[1.739s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.739s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:28:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Navigator[m[K’ has no member named ‘[01m[KGetNode[m[K’; did you mean ‘[01m[KNode[m[K’?
+[1.739s]    28 |   auto map_subscriber = navigator.[01;31m[KGetNode[m[K()->create_subscription<nav_msgs::msg::OccupancyGrid>(
+[1.739s]       |                                   [01;31m[K^~~~~~~[m[K
+[1.739s]       |                                   [32m[KNode[m[K
+[1.739s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:28:94:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[1.739s]    28 |   auto map_subscriber = navigator.GetNode()->create_subscription<nav_msgs::msg::OccupancyGrid[01;31m[K>[m[K(
+[1.739s]       |                                                                                              [01;31m[K^[m[K
+[1.739s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:29:5:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[1.739s]    29 |     [01;35m[K"/map"[m[K,
+[1.739s]       |     [01;35m[K^~~~~~[m[K
+[1.741s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:31:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoints[m[K’ was not declared in this scope; did you mean ‘[01m[Kprintf[m[K’?
+[1.741s]    31 |     std::bind(&mapCallback, std::placeholders::_1, std::ref([01;31m[Kpoints[m[K))
+[1.741s]       |                                                             [01;31m[K^~~~~~[m[K
+[1.741s]       |                                                             [32m[Kprintf[m[K
+[1.741s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:37:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Navigator[m[K’ has no member named ‘[01m[KGetNode[m[K’; did you mean ‘[01m[KNode[m[K’?
+[1.741s]    37 |     rclcpp::spin_some(navigator.[01;31m[KGetNode[m[K());
+[1.741s]       |                                 [01;31m[K^~~~~~~[m[K
+[1.741s]       |                                 [32m[KNode[m[K
+[1.744s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:59:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Navigator[m[K’ has no member named ‘[01m[KGetNode[m[K’; did you mean ‘[01m[KNode[m[K’?
+[1.744s]    59 |       rclcpp::spin_some(navigator.[01;31m[KGetNode[m[K());
+[1.745s]       |                                   [01;31m[K^~~~~~~[m[K
+[1.745s]       |                                   [32m[KNode[m[K
+[2.484s] make[2]: *** [CMakeFiles/testnavigation.dir/build.make:63: CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o] Error 1
+[2.484s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/testnavigation.dir/all] Error 2
+[2.484s] make: *** [Makefile:141: all] Error 2
+[2.489s] Invoked command in '/home/admin/Desktop/Project180/build/robotpatrol' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/build/robotpatrol -- -j8 -l8

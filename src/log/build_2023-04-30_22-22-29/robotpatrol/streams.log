@@ -1,0 +1,51 @@
+[0.022s] Invoking command in '/home/admin/Desktop/Project180/src/build/robotpatrol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/src/build/robotpatrol -- -j8 -l8
+[0.102s] [ 37%] Built target testpackage
+[0.135s] [ 62%] Built target navigator
+[0.149s] [35m[1mScanning dependencies of target testnavigation[0m
+[0.187s] [ 75%] [32mBuilding CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o[0m
+[1.878s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.878s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:52:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before numeric constant
+[1.878s]    52 |   [01;31m[K3[m[K, 0, 1,
+[1.879s]       |   [01;31m[K^[m[K
+[1.879s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:48:19:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.879s]    48 |   float poses[] = [01;36m[K{[m[K // (X,Y,W)
+[1.879s]       |                   [01;36m[K^[m[K
+[1.879s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:52:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before numeric constant
+[1.879s]    52 |   [01;31m[K3[m[K, 0, 1,
+[1.879s]       |   [01;31m[K^[m[K
+[1.879s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:48:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kposes[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.879s]    48 |   float [01;35m[Kposes[m[K[] = { // (X,Y,W)
+[1.879s]       |         [01;35m[K^~~~~[m[K
+[1.879s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K At global scope:
+[1.879s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:55:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[1.879s]    55 |   }[01;35m[K;[m[K
+[1.879s]       |    [01;35m[K^[m[K
+[1.879s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:58:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+[1.879s]    58 |   [01;31m[Kfor[m[K (int i = 0; i < 18; i += 3) {
+[1.880s]       |   [01;31m[K^~~[m[K
+[1.880s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:58:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+[1.880s]    58 |   for (int i = 0; [01;31m[Ki[m[K < 18; i += 3) {
+[1.881s]       |                   [01;31m[K^[m[K
+[1.882s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:58:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+[1.882s]    58 |   for (int i = 0; i < 18; [01;31m[Ki[m[K += 3) {
+[1.882s]       |                           [01;31m[K^[m[K
+[1.882s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:67:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knavigator[m[K’ does not name a type; did you mean ‘[01m[KNavigator[m[K’?
+[1.882s]    67 |   [01;31m[Knavigator[m[K.Backup();
+[1.882s]       |   [01;31m[K^~~~~~~~~[m[K
+[1.882s]       |   [32m[KNavigator[m[K
+[1.882s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:68:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[1.882s]    68 |   [01;31m[Kwhile[m[K ( ! navigator.IsTaskComplete() ) {
+[1.883s]       |   [01;31m[K^~~~~[m[K
+[1.883s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:74:21:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[1.883s]    74 |   rclcpp::shutdown()[01;31m[K;[m[K // shutdown ROS
+[1.883s]       |                     [01;31m[K^[m[K
+[1.883s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:75:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+[1.883s]    75 |   [01;31m[Kreturn[m[K 0;
+[1.883s]       |   [01;31m[K^~~~~~[m[K
+[1.883s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:76:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.883s]    76 | [01;31m[K}[m[K
+[1.883s]       | [01;31m[K^[m[K
+[2.658s] make[2]: *** [CMakeFiles/testnavigation.dir/build.make:63: CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o] Error 1
+[2.658s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/testnavigation.dir/all] Error 2
+[2.658s] make: *** [Makefile:141: all] Error 2
+[2.662s] Invoked command in '/home/admin/Desktop/Project180/src/build/robotpatrol' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/src/build/robotpatrol -- -j8 -l8

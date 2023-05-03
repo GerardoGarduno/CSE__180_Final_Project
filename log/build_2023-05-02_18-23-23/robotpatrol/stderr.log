@@ -1,0 +1,7 @@
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kvoid mapCallBack(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:34:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _info_type = struct nav_msgs::msg::MapMetaData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::MapMetaData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmap_width[m[K’
+   34 |   std::cout<<msg->info.[01;31m[Kmap_width[m[K<<std::endl;
+      |                        [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/testnavigation.dir/build.make:63: CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/testnavigation.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

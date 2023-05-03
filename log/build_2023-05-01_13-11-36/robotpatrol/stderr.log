@@ -1,0 +1,33 @@
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kvoid mapCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr, std::vector<geometry_msgs::msg::Point_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:10:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   10 |   for (int x = 0; [01;35m[Kx < msg->info.width[m[K; x++) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:11:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   11 |     for (int y = 0; [01;35m[Ky < msg->info.height[m[K; y++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:28:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Navigator[m[K’ has no member named ‘[01m[KGetNode[m[K’; did you mean ‘[01m[KNode[m[K’?
+   28 |   auto map_subscriber = navigator.[01;31m[KGetNode[m[K()->create_subscription<nav_msgs::msg::OccupancyGrid>(
+      |                                   [01;31m[K^~~~~~~[m[K
+      |                                   [32m[KNode[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:28:94:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   28 |   auto map_subscriber = navigator.GetNode()->create_subscription<nav_msgs::msg::OccupancyGrid[01;31m[K>[m[K(
+      |                                                                                              [01;31m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:29:5:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   29 |     [01;35m[K"/map"[m[K,
+      |     [01;35m[K^~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:31:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoints[m[K’ was not declared in this scope; did you mean ‘[01m[Kprintf[m[K’?
+   31 |     std::bind(&mapCallback, std::placeholders::_1, std::ref([01;31m[Kpoints[m[K))
+      |                                                             [01;31m[K^~~~~~[m[K
+      |                                                             [32m[Kprintf[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:37:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Navigator[m[K’ has no member named ‘[01m[KGetNode[m[K’; did you mean ‘[01m[KNode[m[K’?
+   37 |     rclcpp::spin_some(navigator.[01;31m[KGetNode[m[K());
+      |                                 [01;31m[K^~~~~~~[m[K
+      |                                 [32m[KNode[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:59:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Navigator[m[K’ has no member named ‘[01m[KGetNode[m[K’; did you mean ‘[01m[KNode[m[K’?
+   59 |       rclcpp::spin_some(navigator.[01;31m[KGetNode[m[K());
+      |                                   [01;31m[K^~~~~~~[m[K
+      |                                   [32m[KNode[m[K
+make[2]: *** [CMakeFiles/testnavigation.dir/build.make:63: CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/testnavigation.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
