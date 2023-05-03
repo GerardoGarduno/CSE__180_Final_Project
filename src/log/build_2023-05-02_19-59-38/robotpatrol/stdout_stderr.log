@@ -1,0 +1,61 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+-- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/admin/Desktop/Project180/src/robotpatrol/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/admin/Desktop/Project180/src/build/robotpatrol
+[ 37%] Built target testpackage
+[ 50%] [32m[1mLinking CXX executable testnavigation[0m
+[ 75%] Built target navigator
+[100%] Built target testnavigation
+-- Install configuration: ""
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/library_path.sh
+-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/library_path.dsv
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/include
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/include/navigation
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/include/navigation/navigation.hpp
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/lib/libnavigator.a
+-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/lib/robotpatrol/testnavigation
+-- Set runtime path of "/home/admin/Desktop/Project180/src/install/robotpatrol/lib/robotpatrol/testnavigation" to ""
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/lib/robotpatrol/testpackage
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/ament_index/resource_index/package_run_dependencies/robotpatrol
+-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/ament_index/resource_index/parent_prefix_path/robotpatrol
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/ament_prefix_path.sh
+-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/path.sh
+-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/environment/path.dsv
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/local_setup.bash
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/local_setup.sh
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/local_setup.zsh
+-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/local_setup.dsv
+-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/package.dsv
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/ament_index/resource_index/packages/robotpatrol
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/navigatorlibExport.cmake
+-- Installing: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/navigatorlibExport-noconfig.cmake
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/robotpatrolConfig.cmake
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/cmake/robotpatrolConfig-version.cmake
+-- Up-to-date: /home/admin/Desktop/Project180/src/install/robotpatrol/share/robotpatrol/package.xml

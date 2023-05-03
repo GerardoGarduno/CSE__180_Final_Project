@@ -21,25 +21,62 @@ limitations under the License.
 //need to print
 #include <nav_msgs/msg/occupancy_grid.hpp>
 #include <iostream>
+#include <sensor_msgs/msg/laser_scan.hpp>
  //include map info when starting ??
+// void mapCallback(const nav_msgs::msg::OccupancyGrid::SharedPtr msg){
+//         RCLCPP_INFO("Size of Map: %d", msg->data.size());
+//         // RCLCPP_INFO( "Resolution: %f", msg->info.resolution());
+//         // RCLCPP_INFO( "Width: %d", msg->info.width());
+//         // RCLCPP_INFO( "Height: %d", msg->info.height());
+//         uint counter = 0;
+//         for (uint i = 0; i < msg->data.size(); i++) {
+//             if (-1 != msg->data[i]) {
+//                 counter++;
+//             }
+//         }
+// }
+// void mapCallBack(const nav_msgs::msg::OccupancyGrid::SharedPtr msg) {
+//   // Get map info
+//   int map_width = msg->info.width;
+//   int map_height = msg->info.height;
+//   float map_resolution = msg->info.resolution;
 
-void mapCallBack(const nav_msgs::msg::OccupancyGrid::SharedPtr msg) {
-  // Get map info
-  // int map_width = msg->info.width;
-  // int map_height = msg->info.height;
-  // float map_resolution = msg->info.resolution;
+//   // Print map info to console
+//   //RCLCPP_INFO(rclcpp::get_logger("mapCallback"), "Received map with width: %d, height: %d, and resolution: %f", map_width, map_height, map_resolution);
+//   // std::cout<<msg->info.map_width<<std::endl;
+//   //std::cout<< "map dimensions:" << "width: " << map_width << " hieght:" << map_height << "resolution" << map_resolution << std::endl;
 
-  // Print map info to console
-  //RCLCPP_INFO(rclcpp::get_logger("mapCallback"), "Received map with width: %d, height: %d, and resolution: %f", map_width, map_height, map_resolution);
-  // std::cout<<msg->info.map_width<<std::endl;
-  //std::cout<< "map dimensions:" << "width: " << map_width << " hieght:" << map_height << "resolution" << map_resolution << std::endl;
-
-}
+// }
+//ppose printer
 void pathCallBack(const nav_msgs::msg::Path::SharedPtr msg) {
   for (const auto& pose : msg->poses) {
     std::cout <<"Currently Iam at: "<< "x: " << pose.pose.position.x << " y: " << pose.pose.position.y << std::endl;
   }
 }
+
+//laser printer
+class FindClosest : public rclcpp::Node {
+  public:
+    FindClosest() : Node("pubsubstl") {
+    pubf = this->create_publisher<std_msgs::msg::Float32>("closest", 1000);
+    sub = this->create_subscription<sensor_msgs::msg::LaserScan>(
+    "scan", 10, std::bind(&FindClosest::processScan, this, std::placeholders::_1));
+  }
+
+  private:
+    void processScan(const sensor_msgs::msg::LaserScan::SharedPtr msg) {
+      std::vector<float>::const_iterator minval = min(msg->ranges.begin(), msg->ranges.end());
+      std_msgs::msg::Float32 msgToSend;
+      msgToSend.data = *minval;
+      pubf->publish(msgToSend); // publish result
+      for (size_t i = 0; i < msg->ranges.size(); i++) {
+        RCLCPP_INFO(rclcpp::get_logger("laser_scan"), "Values %d: %f", i, msg->ranges[i]);
+      }
+    }
+    rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr pubf;
+    rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr sub;
+};
+
 
 int main(int argc,char **argv) {
   rclcpp::init(argc,argv); // initialize ROS 
@@ -57,17 +94,25 @@ int main(int argc,char **argv) {
   navigator.WaitUntilNav2Active();
   
   // subscribe to map topic
-  auto map_sub = navigator.create_subscription<nav_msgs::msg::OccupancyGrid>("map", 10, mapCallBack);
+  //auto map_sub = navigator.create_subscription<nav_msgs::msg::OccupancyGrid>("map", 10, mapCallBack);
+
+
   // subscribe to plan topic and set callback to pathCallBack
   auto path_sub = navigator.create_subscription<nav_msgs::msg::Path>("plan", 10, pathCallBack);
+  
+  
+
   // spin in place of 90 degrees (default parameter)
   navigator.Spin();
   while ( ! navigator.IsTaskComplete() ) {
     // busy waiting for task to be completed
   }
   // move to the poses in the arrays
-  double arrayx[] ={-2,-0.5,-0.5,-0.5,0.5,0.5,0.5,2,2};
-  double arrayy[] ={1,2,0,-2,-1.5,0,2,1,-1};
+  //double arrayx[] ={-2,-0.5,-0.5,-0.5,0.5,0.5,0.5,2,2};
+  //double arrayy[] ={1,2,0,-2,-1.5,0,2,1,-1};
+  //attempts
+  double arrayx[] ={-2, -0.5,0.5,2,2,2,2,0.5,-0.5,-2};
+  double arrayy[] ={0,0,0,0,0.5,1,2,2,2,2};
   int arraySize = sizeof(arrayy)/sizeof(double);
   for (int i = 0; i < arraySize; i++) {
     // set goal pose
@@ -80,6 +125,8 @@ int main(int argc,char **argv) {
     navigator.GoToPose(goal_pos);
     //call the laser
     while (!navigator.IsTaskComplete()) {
+        rclcpp::spin(std::make_shared<FindClosest>());
+
       // busy waiting for task to be completed
     }
   }

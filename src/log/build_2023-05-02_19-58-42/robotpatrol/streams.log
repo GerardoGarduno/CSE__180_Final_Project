@@ -1,0 +1,35 @@
+[0.027s] Invoking command in '/home/admin/Desktop/Project180/src/build/robotpatrol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/src/build/robotpatrol -- -j8 -l8
+[0.116s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.155s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.360s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.419s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.426s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.596s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.681s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.684s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.895s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.939s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.031s] -- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+[1.355s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.397s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[1.423s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.505s] CMake Error at CMakeLists.txt:31 (install):
+[1.505s]   install TARGETS given target "your_executable_name" which does not exist.
+[1.505s] 
+[1.505s] 
+[1.505s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.597s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.598s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.598s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/admin/Desktop/Project180/src/robotpatrol/include>
+[1.598s] -- Configured cppcheck exclude dirs and/or files: 
+[1.599s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.599s] -- Configured cpplint exclude dirs and/or files: 
+[1.601s] -- Added test 'lint_cmake' to check CMake code style
+[1.602s] -- Added test 'uncrustify' to check C / C++ code style
+[1.602s] -- Configured uncrustify additional arguments: 
+[1.603s] -- Added test 'xmllint' to check XML markup files
+[1.608s] -- Configuring incomplete, errors occurred!
+[1.608s] See also "/home/admin/Desktop/Project180/src/build/robotpatrol/CMakeFiles/CMakeOutput.log".
+[1.608s] See also "/home/admin/Desktop/Project180/src/build/robotpatrol/CMakeFiles/CMakeError.log".
+[1.617s] make: *** [Makefile:360: cmake_check_build_system] Error 1
+[1.619s] Invoked command in '/home/admin/Desktop/Project180/src/build/robotpatrol' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/src/build/robotpatrol -- -j8 -l8

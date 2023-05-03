@@ -103,8 +103,12 @@ testnavigation: /opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_introspection
 testnavigation: /opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_c.so
 testnavigation: /opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
 testnavigation: /opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_cpp.so
-testnavigation: /opt/ros/foxy/lib/liblifecycle_msgs__rosidl_generator_c.so
 testnavigation: /opt/ros/foxy/lib/librclcpp.so
+testnavigation: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+testnavigation: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so
+testnavigation: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+testnavigation: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+testnavigation: /opt/ros/foxy/lib/liblifecycle_msgs__rosidl_generator_c.so
 testnavigation: /opt/ros/foxy/lib/liblibstatistics_collector.so
 testnavigation: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 testnavigation: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
@@ -151,6 +155,7 @@ testnavigation: /opt/ros/foxy/lib/libnav_msgs__rosidl_generator_c.so
 testnavigation: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_c.so
 testnavigation: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
 testnavigation: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_cpp.so
+testnavigation: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
 testnavigation: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 testnavigation: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
 testnavigation: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so

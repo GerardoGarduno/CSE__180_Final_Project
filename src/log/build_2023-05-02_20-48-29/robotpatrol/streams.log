@@ -1,0 +1,138 @@
+[0.016s] Invoking command in '/home/admin/Desktop/Project180/src/build/robotpatrol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/src/build/robotpatrol -- -j8 -l8
+[0.087s] [35m[1mScanning dependencies of target testnavigation[0m
+[0.135s] [ 25%] Built target navigator
+[0.145s] [ 62%] Built target testpackage
+[0.157s] [ 75%] [32mBuilding CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o[0m
+[1.779s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.779s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.779s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.779s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.780s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.780s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.780s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.780s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.780s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.780s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.780s]                  from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[1.780s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kvoid mapCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.780s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:27:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knodeh[m[K’ was not declared in this scope
+[1.780s]    27 |         RCLCPP_INFO([01;31m[Knodeh[m[K->get_logger(),"Size of Map: %d", msg->data.size());
+[1.780s]       |                     [01;31m[K^~~~~[m[K
+[1.780s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:27:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.780s]    27 |         [01;31m[KRCLCPP_INFO[m[K(nodeh->get_logger(),"Size of Map: %d", msg->data.size());
+[1.780s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.780s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:27:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.780s]    27 |         [01;31m[KRCLCPP_INFO[m[K(nodeh->get_logger(),"Size of Map: %d", msg->data.size());
+[1.780s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.780s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:27:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.780s]    27 |         [01;31m[KRCLCPP_INFO[m[K(nodeh->get_logger(),"Size of Map: %d", msg->data.size());
+[1.781s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.782s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:28:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knodeh[m[K’ was not declared in this scope
+[1.782s]    28 |         RCLCPP_INFO([01;31m[Knodeh[m[K->get_logger(), "Resolution: %f", msg->info.resolution());
+[1.782s]       |                     [01;31m[K^~~~~[m[K
+[1.782s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:28:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.782s]    28 |         [01;31m[KRCLCPP_INFO[m[K(nodeh->get_logger(), "Resolution: %f", msg->info.resolution());
+[1.782s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.782s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:28:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.783s]    28 |         [01;31m[KRCLCPP_INFO[m[K(nodeh->get_logger(), "Resolution: %f", msg->info.resolution());
+[1.783s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.783s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:28:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.783s]    28 |         [01;31m[KRCLCPP_INFO[m[K(nodeh->get_logger(), "Resolution: %f", msg->info.resolution());
+[1.783s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.783s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.783s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.783s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.783s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.783s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.783s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.783s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.783s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.783s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.783s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.783s]                  from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[1.783s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:28:81:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+[1.784s]    28 |         RCLCPP_INFO(nodeh->get_logger(), "Resolution: %f", msg->info.resolution([01;31m[K)[m[K);
+[1.784s]       |                                                                                 [01;31m[K^[m[K
+[1.784s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.785s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.785s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.785s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.785s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.785s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.785s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.785s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.785s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.785s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.785s]                  from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[1.785s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:29:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knodeh[m[K’ was not declared in this scope
+[1.785s]    29 |         RCLCPP_INFO([01;31m[Knodeh[m[K->get_logger(), "Width: %d", msg->info.width());
+[1.785s]       |                     [01;31m[K^~~~~[m[K
+[1.785s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:29:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.785s]    29 |         [01;31m[KRCLCPP_INFO[m[K(nodeh->get_logger(), "Width: %d", msg->info.width());
+[1.785s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.785s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:29:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.785s]    29 |         [01;31m[KRCLCPP_INFO[m[K(nodeh->get_logger(), "Width: %d", msg->info.width());
+[1.785s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.786s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:29:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.786s]    29 |         [01;31m[KRCLCPP_INFO[m[K(nodeh->get_logger(), "Width: %d", msg->info.width());
+[1.786s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.786s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.786s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.786s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.786s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.786s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.787s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.787s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.787s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.787s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.787s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.788s]                  from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[1.788s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:29:71:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+[1.788s]    29 |         RCLCPP_INFO(nodeh->get_logger(), "Width: %d", msg->info.width([01;31m[K)[m[K);
+[1.788s]       |                                                                       [01;31m[K^[m[K
+[1.788s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.788s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.788s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.788s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.788s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.788s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.788s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.788s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.788s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.788s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.788s]                  from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[1.789s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:30:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knodeh[m[K’ was not declared in this scope
+[1.789s]    30 |         RCLCPP_INFO([01;31m[Knodeh[m[K->get_logger(), "Height: %d", msg->info.height());
+[1.789s]       |                     [01;31m[K^~~~~[m[K
+[1.789s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:30:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.789s]    30 |         [01;31m[KRCLCPP_INFO[m[K(nodeh->get_logger(), "Height: %d", msg->info.height());
+[1.789s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.789s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:30:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.789s]    30 |         [01;31m[KRCLCPP_INFO[m[K(nodeh->get_logger(), "Height: %d", msg->info.height());
+[1.789s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.789s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:30:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.789s]    30 |         [01;31m[KRCLCPP_INFO[m[K(nodeh->get_logger(), "Height: %d", msg->info.height());
+[1.789s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.789s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.789s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.789s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.789s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.790s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.790s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.790s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.790s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.790s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.790s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.790s]                  from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[1.790s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:30:73:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+[1.790s]    30 |         RCLCPP_INFO(nodeh->get_logger(), "Height: %d", msg->info.height([01;31m[K)[m[K);
+[1.790s]       |                                                                         [01;31m[K^[m[K
+[1.852s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.852s] [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:98:89:[m[K [01;31m[Kerror: [m[K‘[01m[KmapCallBack[m[K’ was not declared in this scope; did you mean ‘[01m[KmapCallback[m[K’?
+[1.852s]    98 |   auto map_sub = navigator.create_subscription<nav_msgs::msg::OccupancyGrid>("map", 10, [01;31m[KmapCallBack[m[K);
+[1.853s]       |                                                                                         [01;31m[K^~~~~~~~~~~[m[K
+[1.853s]       |                                                                                         [32m[KmapCallback[m[K
+[3.627s] make[2]: *** [CMakeFiles/testnavigation.dir/build.make:63: CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o] Error 1
+[3.627s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/testnavigation.dir/all] Error 2
+[3.629s] make: *** [Makefile:141: all] Error 2
+[3.631s] Invoked command in '/home/admin/Desktop/Project180/src/build/robotpatrol' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/admin/Desktop/Project180/src/build/robotpatrol -- -j8 -l8

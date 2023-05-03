@@ -804,6 +804,10 @@ CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/ros
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_cpp/message_type_support.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_cpp/service_type_support.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__builder.hpp
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__traits.hpp
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__builder.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__traits.hpp

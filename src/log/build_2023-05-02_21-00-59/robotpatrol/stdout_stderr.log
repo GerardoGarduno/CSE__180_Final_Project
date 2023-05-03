@@ -1,0 +1,164 @@
+[ 25%] Built target navigator
+[ 62%] Built target testpackage
+[ 75%] [32mBuilding CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o[0m
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kvoid mapCallback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:27:9:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+   27 |         [01;31m[KRCLCPP_INFO[m[K("Size of Map: %d", msg->data.size());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:27:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Size of Map: %d")[m[K’, which is of non-class type ‘[01m[Kconst char [16][m[K’
+   27 |         [01;31m[KRCLCPP_INFO[m[K("Size of Map: %d", msg->data.size());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:27:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Size of Map: %d")[m[K’, which is of non-class type ‘[01m[Kconst char [16][m[K’
+   27 |         [01;31m[KRCLCPP_INFO[m[K("Size of Map: %d", msg->data.size());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:27:54:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kconst char*[m[K’ [[01;31m[K-fpermissive[m[K]
+   27 |         RCLCPP_INFO("Size of Map: %d", [01;31m[Kmsg->data.size()[m[K);
+      |                                        [01;31m[K~~~~~~~~~~~~~~^~[m[K
+      |                                                      [01;31m[K|[m[K
+      |                                                      [01;31m[Kstd::vector<signed char, std::allocator<signed char> >::size_type {aka long unsigned int}[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:36[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/utilities.hpp:296:27:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kconst char* rclcpp::get_c_string(const char*)[m[K’
+  296 | get_c_string([01;36m[Kconst char * string_in[m[K);
+      |              [01;36m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:28:9:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+   28 |         [01;31m[KRCLCPP_INFO[m[K( "Resolution: %f", msg->info.resolution());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:28:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Resolution: %f")[m[K’, which is of non-class type ‘[01m[Kconst char [15][m[K’
+   28 |         [01;31m[KRCLCPP_INFO[m[K( "Resolution: %f", msg->info.resolution());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:28:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Resolution: %f")[m[K’, which is of non-class type ‘[01m[Kconst char [15][m[K’
+   28 |         [01;31m[KRCLCPP_INFO[m[K( "Resolution: %f", msg->info.resolution());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:28:61:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+   28 |         RCLCPP_INFO( "Resolution: %f", msg->info.resolution([01;31m[K)[m[K);
+      |                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:29:9:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+   29 |         [01;31m[KRCLCPP_INFO[m[K( "Width: %d", msg->info.width());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:29:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Width: %d")[m[K’, which is of non-class type ‘[01m[Kconst char [10][m[K’
+   29 |         [01;31m[KRCLCPP_INFO[m[K( "Width: %d", msg->info.width());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:29:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Width: %d")[m[K’, which is of non-class type ‘[01m[Kconst char [10][m[K’
+   29 |         [01;31m[KRCLCPP_INFO[m[K( "Width: %d", msg->info.width());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:29:51:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+   29 |         RCLCPP_INFO( "Width: %d", msg->info.width([01;31m[K)[m[K);
+      |                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:30:9:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+   30 |         [01;31m[KRCLCPP_INFO[m[K( "Height: %d", msg->info.height());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:17[m[K:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:30:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Height: %d")[m[K’, which is of non-class type ‘[01m[Kconst char [11][m[K’
+   30 |         [01;31m[KRCLCPP_INFO[m[K( "Height: %d", msg->info.height());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:30:9:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Height: %d")[m[K’, which is of non-class type ‘[01m[Kconst char [11][m[K’
+   30 |         [01;31m[KRCLCPP_INFO[m[K( "Height: %d", msg->info.height());
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:30:53:[m[K [01;31m[Kerror: [m[Kexpression cannot be used as a function
+   30 |         RCLCPP_INFO( "Height: %d", msg->info.height([01;31m[K)[m[K);
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:97:89:[m[K [01;31m[Kerror: [m[K‘[01m[KmapCallBack[m[K’ was not declared in this scope; did you mean ‘[01m[KmapCallback[m[K’?
+   97 |   auto map_sub = navigator.create_subscription<nav_msgs::msg::OccupancyGrid>("map", 10, [01;31m[KmapCallBack[m[K);
+      |                                                                                         [01;31m[K^~~~~~~~~~~[m[K
+      |                                                                                         [32m[KmapCallback[m[K
+make[2]: *** [CMakeFiles/testnavigation.dir/build.make:63: CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/testnavigation.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
