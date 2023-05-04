@@ -1,5 +1,0 @@
-CMake Error at CMakeLists.txt:31 (install):
-  install TARGETS given target "your_executable_name" which does not exist.
-
-
-make: *** [Makefile:360: cmake_check_build_system] Error 1

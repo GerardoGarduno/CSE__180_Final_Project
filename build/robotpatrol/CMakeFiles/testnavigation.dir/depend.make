@@ -457,6 +457,7 @@ CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/bui
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/builtin_interfaces/msg/detail/time__traits.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/builtin_interfaces/msg/time.hpp
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/point32__struct.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/point__traits.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/geometry_msgs/msg/detail/pose__builder.hpp
@@ -804,6 +805,15 @@ CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/ros
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_cpp/message_type_support.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_cpp/service_type_support.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/sensor_msgs/msg/detail/channel_float32__struct.hpp
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__builder.hpp
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__traits.hpp
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud__builder.hpp
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud__struct.hpp
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud__traits.hpp
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/sensor_msgs/msg/point_cloud.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__builder.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__traits.hpp

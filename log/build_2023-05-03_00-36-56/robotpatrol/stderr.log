@@ -1,0 +1,12 @@
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kvoid pathCallBack(nav_msgs::msg::Path_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:45:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpose[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   45 |   for (const auto& [01;35m[Kpose[m[K : msg->poses) {
+      |                    [01;35m[K^~~~[m[K
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:153:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kspin_once[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kspin_some[m[K’?
+  153 |         rclcpp::[01;31m[Kspin_once[m[K(std::make_shared<FindClosest>());
+      |                 [01;31m[K^~~~~~~~~[m[K
+      |                 [32m[Kspin_some[m[K
+make[2]: *** [CMakeFiles/testnavigation.dir/build.make:63: CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/testnavigation.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
