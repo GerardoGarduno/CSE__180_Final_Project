@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target testnavigation[0m
-[ 37%] Built target testpackage
-[ 62%] Built target navigator
-[ 75%] [32mBuilding CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o[0m

@@ -1,4 +1,0 @@
-[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:[m[K In function ‘[01m[Kvoid pathCallBack(nav_msgs::msg::Path_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/admin/Desktop/Project180/src/robotpatrol/src/testnavigator.cpp:45:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpose[m[K’ [[01;35m[K-Wunused-variable[m[K]
-   45 |   for (const auto& [01;35m[Kpose[m[K : msg->poses) {
-      |                    [01;35m[K^~~~[m[K
