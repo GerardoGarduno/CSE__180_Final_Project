@@ -1,0 +1,36 @@
+﻿Project Name:robotpatrol
+In this project the file testnavigator.cpp is ran along side gazebo in order to explore an environment to identify the location of an unknown piller.
+Getting Started:
+Windows worked -> WSL (Windows Subsystem for Linux), VBox, Native?
+Mac recommend VBox
+Linux Ubuntu 20.4
+Prerequisites:
+MRTP folder
+ROS2
+Gazebo
+Colcon
+Robot patrol folder
+Installation
+1. Make sure you are running the latest version of MRTP from Stefano Carpin’s Github:https://github.com/stefanocarpin/MRTP/ 
+2. You will need to install the ROS2  and Gazebo packages first before running the MRTP folder here are the instruction: https://github.com/stefanocarpin/MRTP/wiki/Installation-Intructions 
+3. Make sure to follow the steps in the provided links, these packages are important in order run the simulation. Next is COLCON: https://colcon.readthedocs.io/en/released/user/installation.html
+4. When you are done installing the packages open a new terminal and navigate to the directory which the MRTP folder is located e.g cd /Desktop/MRTP/MRTP (it is recommended to source the MRTP folder inside you're home directory)
+5. Inside the MRTP/MRTP run  colcon build
+6. Source the folder: source install/ local_setup.bash or
+7. . install/local_setup.bash
+8. The colcon command will build the necessary folders inside the MRTP folder.
+9. Next run the environment(still inside the MRTP folder): 
+export TURTLEBOT3)MODEL=waffle
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/MRTP/MRTP/src/gazeboenvs/models
+. install/local_setup.bash
+ros2 launch gazeboenvs tb3_simulation.launch.py
+10. This will launch Gazeebo, you should see an environment with 10 pillars and a gazebo robot.
+11. Next step is to run the navigation node. You can run it like this:
+   1. git clone https://github.com/GerardoGarduno/CSE_Final_Project 
+   2. colcon build (inside /src ) 
+   3. . install/local_setup.bash
+   4. ros2 run robotpatrol testnavigator.cpp
+12. You should now have two terminals one running gazebo and another terminal running the testnaviagtion node. Wait until the gazebo robot finishes its path to get the estimated position of the unknown piler\
+
+
+NOTE: Sometimes the gazebo application will crash and it is recommended to rerun step 9 to have a fresh gazebo to test the application.
