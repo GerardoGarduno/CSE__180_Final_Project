@@ -25,10 +25,10 @@ This project involves running the `testnavigator.cpp` file alongside Gazebo to e
 6. Source the folder by running the command: `source install/local_setup.bash` or `. install/local_setup.bash`.
 7. The `colcon` command will build the necessary folders inside the MRTP folder.
 8. Run the environment (still inside the MRTP folder):
-   - export TURTLEBOT3_MODEL=waffle
-   - export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/MRTP/MRTP/src/gazeboenvs/models
-   - . install/local_setup.bash
-   - ros2 launch gazeboenvs tb3_simulation.launch.py
+   - `export TURTLEBOT3_MODEL=waffle`
+   - `export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/MRTP/MRTP/src/gazeboenvs/models`
+   - `. install/local_setup.bash`
+   - `ros2 launch gazeboenvs tb3_simulation.launch.py`
 9. This will launch Gazebo, and you should see an environment with 10 pillars and a gazebo robot.
 10. The next step is to run the navigation node. Follow these steps:
    - Clone the repository: `git clone https://github.com/GerardoGarduno/CSE_Final_Project`
